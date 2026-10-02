@@ -33,9 +33,9 @@
 
 ## 🧠 About Me
 
-<table>
+<table width="100%">
 <tr>
-<td width="60%" valign="top">
+<td width="50%" valign="top" style="padding:16px;">
 
 ### 👋 Hi, I'm Jeevan!
 
@@ -70,15 +70,14 @@
 > 💼 *Works with business stakeholders to turn operational problems into measurable analytical solutions — from discovery to deployment.*
 
 </td>
-<td width="40%" valign="middle" align="center">
+<td width="50%" valign="middle" align="center" style="padding:16px;">
 
-<img src="./cartoon.jpg" alt="Hi! I'm Jeevan" width="280"/>
-
-**`👆 That's me in cartoon form! 😄`**
+<img src="./cartoon_animated.svg" alt="Hi! I'm Jeevan" width="380" height="380"/>
 
 </td>
 </tr>
 </table>
+
 
 ---
 
