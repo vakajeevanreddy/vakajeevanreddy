@@ -28,36 +28,57 @@
 ---
 
 <div align="center">
-  <img src="./profile.jpg" alt="Vaka Jeevan Reddy" width="180" style="border-radius:50%;"/>
-  <br/><br/>
+  <img src="./profile.jpg" alt="Vaka Jeevan Reddy" width="100%" height="220" style="object-fit:cover; object-position:center top;"/>
 </div>
 
 ## 🧠 About Me
 
-```python
-class JeevanReddy:
-    def __init__(self):
-        self.name       = "Vaka Jeevan Reddy"
-        self.role       = "AI / ML Engineer"
-        self.experience = "2+ Years in Production ML"
-        self.location   = "India 🇮🇳"
-        self.focus      = [
-            "LLM Agents & Agentic Workflows",
-            "RAG (Retrieval-Augmented Generation) Pipelines",
-            "Scalable ML Systems",
-            "Healthcare AI & CRM Automation"
-        ]
-        self.languages  = ["Python", "JavaScript", "SQL"]
-        self.currently  = "Building intelligent AI systems that solve real-world problems"
+<table>
+<tr>
+<td width="60%" valign="top">
 
-    def say_hi(self):
-        print("Thanks for visiting! Let's build something amazing together 🚀")
+### 👋 Hi, I'm Jeevan!
 
-me = JeevanReddy()
-me.say_hi()
-```
+🎯 **Data Scientist & AI/ML Engineer** with **2+ years** of experience
 
-> 💼 *Data Scientist and AI/ML Engineer with 2+ years of experience building predictive analytics, machine learning, and decision-support solutions in Python and SQL. Delivered production models and automation that **cut manual effort by 40–70%**, **improved data accuracy by 30%**, and **supported 500+ concurrent users**. Skilled in data preparation, feature engineering, statistical analysis, model validation, and end-to-end delivery from discovery to deployment. Works with business stakeholders to turn operational problems into measurable analytical solutions.*
+📍 India 🇮🇳 &nbsp;|&nbsp; 💼 Open to Opportunities
+
+<br/>
+
+### 🚀 What I Do
+- 🤖 Build **LLM Agents** & Agentic Workflows
+- 🔗 Architect **RAG Pipelines** with vector databases
+- 📊 Develop **Predictive Analytics** & decision-support models
+- 🏥 Deliver **Healthcare AI** & CRM automation systems
+- ⚡ Cut manual effort by **40–70%** with smart automation
+- 🎯 Improve data accuracy by **30%** via ML pipelines
+
+<br/>
+
+### 💡 Interests
+| | |
+|---|---|
+| 🧠 | Large Language Models (LLMs) |
+| 🔍 | Retrieval-Augmented Generation |
+| 📈 | Predictive Modeling & Analytics |
+| 🐍 | Python · SQL · JavaScript |
+| 🌐 | FastAPI · React · Streamlit |
+| ☁️ | MLOps · Docker · Cloud Deployment |
+
+<br/>
+
+> 💼 *Works with business stakeholders to turn operational problems into measurable analytical solutions — from discovery to deployment.*
+
+</td>
+<td width="40%" valign="middle" align="center">
+
+<img src="./cartoon.jpg" alt="Hi! I'm Jeevan" width="280"/>
+
+**`👆 That's me in cartoon form! 😄`**
+
+</td>
+</tr>
+</table>
 
 ---
 
