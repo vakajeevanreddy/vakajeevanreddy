@@ -28,14 +28,14 @@
 ---
 
 <div align="center">
-  <img src="./profile.jpg" alt="Vaka Jeevan Reddy" width="100%" height="220" style="object-fit:cover; object-position:center top;"/>
+  <img src="./profile.jpg" alt="Vaka Jeevan Reddy" width="220" height="220" style="border-radius: 24px; border: 3px solid #00D9FF; object-fit: cover; object-position: center top;"/>
 </div>
 
 ## 🧠 About Me
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top" style="padding:16px;">
+<td width="52%" valign="top" style="padding: 16px;">
 
 ### 👋 Hi, I'm Jeevan!
 
@@ -43,36 +43,24 @@
 
 📍 India 🇮🇳 &nbsp;|&nbsp; 💼 Open to Opportunities
 
-<br/>
+---
 
 ### 🚀 What I Do
-- 🤖 Build **LLM Agents** & Agentic Workflows
-- 🔗 Architect **RAG Pipelines** with vector databases
+- 🤖 Build **production-grade LLM Agents** & Agentic Workflows
+- 🔗 Architect **RAG Pipelines** with vector search & embedding models
 - 📊 Develop **Predictive Analytics** & decision-support models
-- 🏥 Deliver **Healthcare AI** & CRM automation systems
-- ⚡ Cut manual effort by **40–70%** with smart automation
-- 🎯 Improve data accuracy by **30%** via ML pipelines
+- 🏥 Deliver **Healthcare AI** & CRM automation solutions
+- ⚡ **Cut manual effort by 40–70%** through intelligent automation
+- 🎯 **Improved data accuracy by 30%** and supported 500+ users
 
-<br/>
+---
 
-### 💡 Interests
-| | |
-|---|---|
-| 🧠 | Large Language Models (LLMs) |
-| 🔍 | Retrieval-Augmented Generation |
-| 📈 | Predictive Modeling & Analytics |
-| 🐍 | Python · SQL · JavaScript |
-| 🌐 | FastAPI · React · Streamlit |
-| ☁️ | MLOps · Docker · Cloud Deployment |
-
-<br/>
-
-> 💼 *Works with business stakeholders to turn operational problems into measurable analytical solutions — from discovery to deployment.*
+> 💼 *Skilled in data preparation, feature engineering, statistical analysis, model validation, and end-to-end delivery from discovery to deployment. Works with business stakeholders to turn operational problems into measurable analytical solutions.*
 
 </td>
-<td width="50%" valign="middle" align="center" style="padding:16px;">
+<td width="48%" valign="middle" align="center" style="padding: 12px;">
 
-<img src="./cartoon_animated.svg" alt="Hi! I'm Jeevan" width="380" height="380"/>
+<img src="./cartoon_animated.gif" alt="Jeevan Animated Character" width="100%" style="border-radius: 20px;"/>
 
 </td>
 </tr>
