@@ -71,26 +71,24 @@
 
 ## 🛠️ Tech Stack & Skills
 
-<div align="center">
-
-### 🤖 AI, Machine Learning & Data Science
+### 🤖 Data Science, AI & Machine Learning
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,scikit,pandas,numpy&theme=dark" height="48" alt="AI / ML Skills" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,pandas,numpy,scipy,jupyter,kaggle&theme=dark" height="48" alt="Data Science & ML Skills" />
 </p>
 
 ### 🗄️ Databases & Vector Storage
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite&theme=dark" height="48" alt="Databases" />
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,mysql,redis&theme=dark" height="48" alt="Databases & Storage" />
 </p>
 
-### 🌐 Backend & Web Frameworks
+### 🌐 Backend, Web & API Development
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,react,html,js&theme=dark" height="48" alt="Web Frameworks" />
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,django,react,html,css,js,ts&theme=dark" height="48" alt="Backend & Web" />
 </p>
 
-### ☁️ Cloud, DevOps & Tools
+### ☁️ Cloud, MLOps & Developer Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,git,githubactions,aws,linux,vscode&theme=dark" height="48" alt="DevOps & Cloud" />
+  <img src="https://skillicons.dev/icons?i=docker,git,githubactions,aws,linux,vscode,postman&theme=dark" height="48" alt="DevOps, Cloud & Tools" />
 </p>
 
 </div>
