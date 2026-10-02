@@ -27,6 +27,11 @@
 
 ---
 
+<div align="center">
+  <img src="./profile.jpg" alt="Vaka Jeevan Reddy" width="180" style="border-radius:50%;"/>
+  <br/><br/>
+</div>
+
 ## 🧠 About Me
 
 ```python
@@ -52,7 +57,7 @@ me = JeevanReddy()
 me.say_hi()
 ```
 
-> 🔬 *Passionate about crafting production-grade AI solutions — from architecting multi-agent LLM systems and RAG pipelines to deploying scalable ML models. I bridge the gap between cutting-edge AI research and real-world engineering.*
+> 💼 *Data Scientist and AI/ML Engineer with 2+ years of experience building predictive analytics, machine learning, and decision-support solutions in Python and SQL. Delivered production models and automation that **cut manual effort by 40–70%**, **improved data accuracy by 30%**, and **supported 500+ concurrent users**. Skilled in data preparation, feature engineering, statistical analysis, model validation, and end-to-end delivery from discovery to deployment. Works with business stakeholders to turn operational problems into measurable analytical solutions.*
 
 ---
 
