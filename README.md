@@ -69,28 +69,10 @@
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## 🛠️ Key Skills & Tech Architecture
 
-### 🤖 Data Science, AI & Machine Learning
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,pandas,numpy,scipy,jupyter,kaggle&theme=dark" height="48" alt="Data Science & ML Skills" />
-</p>
-
-### 🗄️ Databases & Vector Storage
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,mysql,redis&theme=dark" height="48" alt="Databases & Storage" />
-</p>
-
-### 🌐 Backend, Web & API Development
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,django,react,html,css,js,ts&theme=dark" height="48" alt="Backend & Web" />
-</p>
-
-### ☁️ Cloud, MLOps & Developer Tools
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,git,githubactions,aws,linux,vscode,postman&theme=dark" height="48" alt="DevOps, Cloud & Tools" />
-</p>
-
+<div align="center">
+  <img src="./key_skills_wheel.svg" alt="Key Skills Circular Pinwheel Architecture" width="100%" style="border-radius: 16px;"/>
 </div>
 
 ---
