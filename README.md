@@ -206,34 +206,30 @@ Hands-on machine learning practice solutions and labs from Deep-ML platform. Imp
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Live GitHub Telemetry & Animated Analytics
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=vakajeevanreddy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=vakajeevanreddy&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+<!-- Custom Animated AI/ML Velocity Dashboard -->
+<img src="./github_analytics_animated.svg" alt="Live AI/ML & Code Velocity Dashboard" width="100%" style="border-radius: 16px;"/>
 
-<br/>
+<br/><br/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vakajeevanreddy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vakajeevanreddy&theme=tokyonight&utcOffset=5.5" alt="Productive Time"/>
+<!-- Animated Contribution Trajectory Wave Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=vakajeevanreddy&theme=tokyo-night&area=true&hide_border=true&custom_title=🚀%20Live%20Contribution%20&%20Commit%20Trajectory" alt="Live Contribution Trajectory" width="100%" style="border-radius: 14px;"/>
 
-</div>
+<br/><br/>
 
----
+<!-- Animated Streak Stats & Top Languages Grid -->
+<img width="49%" src="https://streak-stats.demolab.com?user=vakajeevanreddy&theme=tokyonight&hide_border=true&border_radius=14&date_format=M%20j%5B%2C%20Y%5D&mode=daily" alt="GitHub Streak Tracker"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vakajeevanreddy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&border_radius=14" alt="Top Languages Analyzed"/>
 
-## 🏆 GitHub Achievements
+<br/><br/>
 
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=vakajeevanreddy&theme=tokyonight&no-frame=true&no-bg=true&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="GitHub Trophies"/>
-</div>
+<!-- GitHub Profile Summary Cards -->
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vakajeevanreddy&theme=tokyonight" alt="Profile Details"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vakajeevanreddy&theme=tokyonight&utcOffset=5.5" alt="Productive Time Breakdown"/>
 
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vakajeevanreddy&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph"/>
 </div>
 
 ---

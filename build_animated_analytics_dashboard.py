@@ -1,0 +1,151 @@
+print("Generating Animated GitHub Analytics Dashboard SVG...")
+
+W, H = 840, 260
+
+svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">
+<defs>
+<style>
+  @keyframes dash {{
+    to {{
+      stroke-dashoffset: 0;
+    }}
+  }}
+  @keyframes pulseGlow {{
+    0%, 100% {{ filter: drop-shadow(0 0 3px rgba(0, 217, 255, 0.4)); }}
+    50% {{ filter: drop-shadow(0 0 10px rgba(0, 217, 255, 0.9)); }}
+  }}
+  @keyframes spinDonut {{
+    0% {{ stroke-dashoffset: 350; }}
+    50% {{ stroke-dashoffset: 80; }}
+    100% {{ stroke-dashoffset: 80; }}
+  }}
+  @keyframes barGrow1 {{ 0% {{ width: 0; }} 100% {{ width: 220px; }} }}
+  @keyframes barGrow2 {{ 0% {{ width: 0; }} 100% {{ width: 175px; }} }}
+  @keyframes barGrow3 {{ 0% {{ width: 0; }} 100% {{ width: 130px; }} }}
+  @keyframes barGrow4 {{ 0% {{ width: 0; }} 100% {{ width: 90px; }} }}
+  
+  .chart-line {{
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+    animation: dash 3s ease-out forwards infinite;
+  }}
+  .chart-area {{
+    animation: pulseGlow 3s ease-in-out infinite;
+  }}
+  .donut-ring {{
+    stroke-dasharray: 350;
+    animation: spinDonut 4s ease-in-out infinite alternate;
+  }}
+  .b1 {{ animation: barGrow1 2s ease-out forwards; }}
+  .b2 {{ animation: barGrow2 2.2s ease-out forwards; }}
+  .b3 {{ animation: barGrow3 2.4s ease-out forwards; }}
+  .b4 {{ animation: barGrow4 2.6s ease-out forwards; }}
+</style>
+
+<linearGradient id="dbBg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#0d1117"/>
+  <stop offset="100%" stop-color="#161b22"/>
+</linearGradient>
+
+<linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#00D9FF"/>
+  <stop offset="50%" stop-color="#7928CA"/>
+  <stop offset="100%" stop-color="#FF0080"/>
+</linearGradient>
+
+<linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#00D9FF" stop-opacity="0.35"/>
+  <stop offset="100%" stop-color="#00D9FF" stop-opacity="0.0"/>
+</linearGradient>
+
+<linearGradient id="donutGrad" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#00D9FF"/>
+  <stop offset="100%" stop-color="#A78BFA"/>
+</linearGradient>
+</defs>
+
+<!-- Card Body -->
+<rect width="{W}" height="{H}" rx="18" fill="url(#dbBg)" stroke="#30363d" stroke-width="2"/>
+
+<!-- HEADER -->
+<text x="25" y="36" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial" font-size="15" font-weight="bold" fill="#00D9FF">📈 AI/ML &amp; Code Velocity Analytics</text>
+<text x="{W-25}" y="36" font-family="monospace" font-size="12" fill="#7ee787" text-anchor="end">● LIVE REPO TELEMETRY</text>
+
+<!-- ================= LEFT PANEL: ANIMATED WAVE CHART ================= -->
+<g transform="translate(25, 55)">
+  <rect width="360" height="180" rx="12" fill="#161b26" stroke="#21262d" stroke-width="1.5"/>
+  <text x="15" y="24" font-family="sans-serif" font-size="12" font-weight="bold" fill="#c9d1d9">📊 Commit Activity &amp; Velocity</text>
+  
+  <!-- Grid Lines -->
+  <line x1="15" y1="50" x2="345" y2="50" stroke="#21262d" stroke-dasharray="3,3"/>
+  <line x1="15" y1="90" x2="345" y2="90" stroke="#21262d" stroke-dasharray="3,3"/>
+  <line x1="15" y1="130" x2="345" y2="130" stroke="#21262d" stroke-dasharray="3,3"/>
+  <line x1="15" y1="160" x2="345" y2="160" stroke="#30363d"/>
+  
+  <!-- Filled Area Under Curve -->
+  <path d="M 15 160 L 15 130 Q 60 110, 100 80 T 180 100 T 260 45 T 345 35 L 345 160 Z" fill="url(#areaGrad)" class="chart-area"/>
+  
+  <!-- Animated Smooth Bezier Curve Line -->
+  <path d="M 15 130 Q 60 110, 100 80 T 180 100 T 260 45 T 345 35" fill="none" stroke="url(#lineGrad)" stroke-width="3.5" class="chart-line"/>
+  
+  <!-- Data Points -->
+  <circle cx="100" cy="80" r="4" fill="#00D9FF" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="180" cy="100" r="4" fill="#A78BFA" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="260" cy="45" r="4" fill="#FF0080" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="345" cy="35" r="5" fill="#00D9FF" stroke="#fff" stroke-width="2"/>
+  
+  <text x="340" y="24" font-family="monospace" font-size="11" font-weight="bold" fill="#00D9FF" text-anchor="end">Peak Activity 🚀</text>
+</g>
+
+<!-- ================= MIDDLE PANEL: ANIMATED DONUT METRIC ================= -->
+<g transform="translate(405, 55)">
+  <rect width="180" height="180" rx="12" fill="#161b26" stroke="#21262d" stroke-width="1.5"/>
+  <text x="90" y="24" font-family="sans-serif" font-size="12" font-weight="bold" fill="#c9d1d9" text-anchor="middle">🎯 Code Quality</text>
+  
+  <!-- Background Donut Track -->
+  <circle cx="90" cy="98" r="46" fill="none" stroke="#21262d" stroke-width="10"/>
+  <!-- Animated Gradient Donut Ring -->
+  <circle cx="90" cy="98" r="46" fill="none" stroke="url(#donutGrad)" stroke-width="10" stroke-linecap="round" class="donut-ring" transform="rotate(-90 90 98)"/>
+  
+  <!-- Central Metric -->
+  <text x="90" y="93" font-family="sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">A+</text>
+  <text x="90" y="112" font-family="monospace" font-size="11" fill="#7ee787" text-anchor="middle">98.4%</text>
+  
+  <text x="90" y="162" font-family="sans-serif" font-size="10" fill="#8b949e" text-anchor="middle">Production-Grade</text>
+</g>
+
+<!-- ================= RIGHT PANEL: FOCUS DISTRIBUTION BARS ================= -->
+<g transform="translate(605, 55)">
+  <rect width="210" height="180" rx="12" fill="#161b26" stroke="#21262d" stroke-width="1.5"/>
+  <text x="15" y="24" font-family="sans-serif" font-size="12" font-weight="bold" fill="#c9d1d9">⚡ Engineering Focus</text>
+  
+  <!-- Bar 1: LLM Agents & RAG -->
+  <text x="15" y="48" font-family="sans-serif" font-size="10" fill="#a5d6ff">LLMs &amp; RAG (45%)</text>
+  <rect x="15" y="54" width="180" height="8" rx="4" fill="#21262d"/>
+  <rect x="15" y="54" height="8" rx="4" fill="#00D9FF" class="b1"/>
+  
+  <!-- Bar 2: Predictive Analytics -->
+  <text x="15" y="78" font-family="sans-serif" font-size="10" fill="#a5d6ff">Predictive ML (30%)</text>
+  <rect x="15" y="84" width="180" height="8" rx="4" fill="#21262d"/>
+  <rect x="15" y="84" height="8" rx="4" fill="#A78BFA" class="b2"/>
+  
+  <!-- Bar 3: Full-Stack APIs -->
+  <text x="15" y="108" font-family="sans-serif" font-size="10" fill="#a5d6ff">FastAPI &amp; React (15%)</text>
+  <rect x="15" y="114" width="180" height="8" rx="4" fill="#21262d"/>
+  <rect x="15" y="114" height="8" rx="4" fill="#34D399" class="b3"/>
+  
+  <!-- Bar 4: MLOps & Cloud -->
+  <text x="15" y="138" font-family="sans-serif" font-size="10" fill="#a5d6ff">MLOps &amp; Cloud (10%)</text>
+  <rect x="15" y="144" width="180" height="8" rx="4" fill="#21262d"/>
+  <rect x="15" y="144" height="8" rx="4" fill="#FBBF24" class="b4"/>
+  
+  <text x="105" y="168" font-family="sans-serif" font-size="10" font-weight="bold" fill="#7ee787" text-anchor="middle">500+ Concurrent Users</text>
+</g>
+
+</svg>
+'''
+
+with open("github_analytics_animated.svg", "w", encoding="utf-8") as f:
+    f.write(svg)
+
+print("Saved github_analytics_animated.svg successfully!")
