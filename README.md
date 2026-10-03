@@ -215,19 +215,14 @@ Hands-on machine learning practice solutions and labs from Deep-ML platform. Imp
 
 <br/><br/>
 
-<!-- Animated Contribution Trajectory Wave Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vakajeevanreddy&theme=tokyo-night&area=true&hide_border=true&custom_title=🚀%20Live%20Contribution%20&%20Commit%20Trajectory" alt="Live Contribution Trajectory" width="100%" style="border-radius: 14px;"/>
+<!-- GitHub Overall Stats & Streak Stats Grid -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=vakajeevanreddy&show_icons=true&theme=tokyonight&hide_border=true&border_radius=14&count_private=true&include_all_commits=true" alt="GitHub Stats Overview"/>
+<img width="49%" src="https://streak-stats.demolab.com?user=vakajeevanreddy&theme=tokyonight&hide_border=true&border_radius=14&mode=daily" alt="GitHub Streak Tracker"/>
 
 <br/><br/>
 
-<!-- Animated Streak Stats & Top Languages Grid -->
-<img width="49%" src="https://streak-stats.demolab.com?user=vakajeevanreddy&theme=tokyonight&hide_border=true&border_radius=14&date_format=M%20j%5B%2C%20Y%5D&mode=daily" alt="GitHub Streak Tracker"/>
+<!-- Top Languages Analyzed & Productivity Schedule -->
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vakajeevanreddy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&border_radius=14" alt="Top Languages Analyzed"/>
-
-<br/><br/>
-
-<!-- GitHub Profile Summary Cards -->
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vakajeevanreddy&theme=tokyonight" alt="Profile Details"/>
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vakajeevanreddy&theme=tokyonight&utcOffset=5.5" alt="Productive Time Breakdown"/>
 
 </div>
