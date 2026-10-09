@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
+  <defs>
+    <!-- Main dark background gradient -->
+    <linearGradient id="bgMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#0d0f1a"/>
+      <stop offset="100%" stop-color="#110d17"/>
+    </linearGradient>
+    <!-- Red glow for header accent -->
+    <radialGradient id="redGlow" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#CC0000" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#CC0000" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Blue glow -->
+    <radialGradient id="blueGlow" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#0038A8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0038A8" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Spider silhouette filter for glow -->
+    <filter id="spideyGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#CC0000" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Web strand filter -->
+    <filter id="webGlow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- CSS Animations -->
+    <style>
+      #spideyGroup {
+        animation: swingAcross 6s ease-in-out infinite;
+        transform-origin: 450px 0px;
+      }
+      @keyframes swingAcross {
+        0%   { transform: translateX(-120px) translateY(10px) rotate(-5deg); }
+        25%  { transform: translateX(200px) translateY(-15px) rotate(3deg); }
+        50%  { transform: translateX(450px) translateY(5px) rotate(-2deg); }
+        75%  { transform: translateX(700px) translateY(-10px) rotate(4deg); }
+        100% { transform: translateX(1020px) translateY(10px) rotate(-5deg); }
+      }
+      #webStrand1 {
+        animation: webSway1 3s ease-in-out infinite;
+      }
+      @keyframes webSway1 {
+        0%, 100% { d: path("M 0 20 Q 150 70 300 30 Q 450 -10 600 40 Q 750 80 900 20"); }
+        50%       { d: path("M 0 30 Q 150 50 300 20 Q 450 -20 600 30 Q 750 60 900 30"); }
+      }
+      #webStrand2 {
+        animation: webSway2 4s ease-in-out 1s infinite;
+      }
+      @keyframes webSway2 {
+        0%, 100% { d: path("M 0 60 Q 225 10 450 50 Q 675 90 900 50"); }
+        50%       { d: path("M 0 50 Q 225 20 450 60 Q 675 80 900 40"); }
+      }
+      .webPulse {
+        animation: webPulse 2s ease-in-out infinite;
+      }
+      @keyframes webPulse {
+        0%, 100% { opacity: 0.15; }
+        50%       { opacity: 0.25; }
+      }
+      #spiderTitle {
+        animation: titleFade 1.5s ease-out forwards;
+      }
+      @keyframes titleFade {
+        from { opacity: 0; transform: translateY(-10px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+    </style>
+  </defs>
+
+  <!-- === BACKGROUND === -->
+  <rect width="900" height="180" fill="url(#bgMain)"/>
+  <!-- Color glow overlays -->
+  <rect width="900" height="180" fill="url(#redGlow)"/>
+  <rect width="900" height="180" fill="url(#blueGlow)"/>
+
+  <!-- === WEB PATTERNS (corners) === -->
+  <g class="webPulse">
+    <line x1="0" y1="0" x2="200.0" y2="0.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="0" y1="0" x2="173.2" y2="100.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="0" y1="0" x2="100.0" y2="173.2" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="0" y1="0" x2="0.0" y2="200.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="0" y1="0" x2="-100.0" y2="173.2" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="0" y1="0" x2="-173.2" y2="100.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="0" y1="0" x2="-200.0" y2="0.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="0" y1="0" x2="-173.2" y2="-100.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="0" y1="0" x2="-100.0" y2="-173.2" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="0" y1="0" x2="-0.0" y2="-200.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="0" y1="0" x2="100.0" y2="-173.2" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="0" y1="0" x2="173.2" y2="-100.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<polyline points="40.0,0.0 34.6,20.0 20.0,34.6 0.0,40.0 -20.0,34.6 -34.6,20.0 -40.0,0.0 -34.6,-20.0 -20.0,-34.6 -0.0,-40.0 20.0,-34.6 34.6,-20.0 40.0,0.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.12"/>
+<polyline points="80.0,0.0 69.3,40.0 40.0,69.3 0.0,80.0 -40.0,69.3 -69.3,40.0 -80.0,0.0 -69.3,-40.0 -40.0,-69.3 -0.0,-80.0 40.0,-69.3 69.3,-40.0 80.0,0.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.12"/>
+<polyline points="120.0,0.0 103.9,60.0 60.0,103.9 0.0,120.0 -60.0,103.9 -103.9,60.0 -120.0,0.0 -103.9,-60.0 -60.0,-103.9 -0.0,-120.0 60.0,-103.9 103.9,-60.0 120.0,0.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.12"/>
+<polyline points="160.0,0.0 138.6,80.0 80.0,138.6 0.0,160.0 -80.0,138.6 -138.6,80.0 -160.0,0.0 -138.6,-80.0 -80.0,-138.6 -0.0,-160.0 80.0,-138.6 138.6,-80.0 160.0,0.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.12"/>
+<polyline points="200.0,0.0 173.2,100.0 100.0,173.2 0.0,200.0 -100.0,173.2 -173.2,100.0 -200.0,0.0 -173.2,-100.0 -100.0,-173.2 -0.0,-200.0 100.0,-173.2 173.2,-100.0 200.0,0.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.12"/>
+  </g>
+  <g class="webPulse" style="animation-delay: 1s">
+    <line x1="900" y1="0" x2="1100.0" y2="0.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="900" y1="0" x2="1073.2" y2="100.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="900" y1="0" x2="1000.0" y2="173.2" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="900" y1="0" x2="900.0" y2="200.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="900" y1="0" x2="800.0" y2="173.2" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="900" y1="0" x2="726.8" y2="100.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="900" y1="0" x2="700.0" y2="0.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="900" y1="0" x2="726.8" y2="-100.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="900" y1="0" x2="800.0" y2="-173.2" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="900" y1="0" x2="900.0" y2="-200.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="900" y1="0" x2="1000.0" y2="-173.2" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<line x1="900" y1="0" x2="1073.2" y2="-100.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.12"/>
+<polyline points="940.0,0.0 934.6,20.0 920.0,34.6 900.0,40.0 880.0,34.6 865.4,20.0 860.0,0.0 865.4,-20.0 880.0,-34.6 900.0,-40.0 920.0,-34.6 934.6,-20.0 940.0,0.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.12"/>
+<polyline points="980.0,0.0 969.3,40.0 940.0,69.3 900.0,80.0 860.0,69.3 830.7,40.0 820.0,0.0 830.7,-40.0 860.0,-69.3 900.0,-80.0 940.0,-69.3 969.3,-40.0 980.0,0.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.12"/>
+<polyline points="1020.0,0.0 1003.9,60.0 960.0,103.9 900.0,120.0 840.0,103.9 796.1,60.0 780.0,0.0 796.1,-60.0 840.0,-103.9 900.0,-120.0 960.0,-103.9 1003.9,-60.0 1020.0,0.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.12"/>
+<polyline points="1060.0,0.0 1038.6,80.0 980.0,138.6 900.0,160.0 820.0,138.6 761.4,80.0 740.0,0.0 761.4,-80.0 820.0,-138.6 900.0,-160.0 980.0,-138.6 1038.6,-80.0 1060.0,0.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.12"/>
+<polyline points="1100.0,0.0 1073.2,100.0 1000.0,173.2 900.0,200.0 800.0,173.2 726.8,100.0 700.0,0.0 726.8,-100.0 800.0,-173.2 900.0,-200.0 1000.0,-173.2 1073.2,-100.0 1100.0,0.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.12"/>
+  </g>
+  <g class="webPulse" style="animation-delay: 0.5s">
+    <line x1="0" y1="180" x2="140.0" y2="180.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="0" y1="180" x2="113.3" y2="262.3" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="0" y1="180" x2="43.3" y2="313.1" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="0" y1="180" x2="-43.3" y2="313.1" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="0" y1="180" x2="-113.3" y2="262.3" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="0" y1="180" x2="-140.0" y2="180.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="0" y1="180" x2="-113.3" y2="97.7" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="0" y1="180" x2="-43.3" y2="46.9" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="0" y1="180" x2="43.3" y2="46.9" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="0" y1="180" x2="113.3" y2="97.7" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<polyline points="35.0,180.0 28.3,200.6 10.8,213.3 -10.8,213.3 -28.3,200.6 -35.0,180.0 -28.3,159.4 -10.8,146.7 10.8,146.7 28.3,159.4 35.0,180.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.08"/>
+<polyline points="70.0,180.0 56.6,221.1 21.6,246.6 -21.6,246.6 -56.6,221.1 -70.0,180.0 -56.6,138.9 -21.6,113.4 21.6,113.4 56.6,138.9 70.0,180.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.08"/>
+<polyline points="105.0,180.0 84.9,241.7 32.4,279.9 -32.4,279.9 -84.9,241.7 -105.0,180.0 -84.9,118.3 -32.4,80.1 32.4,80.1 84.9,118.3 105.0,180.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.08"/>
+<polyline points="140.0,180.0 113.3,262.3 43.3,313.1 -43.3,313.1 -113.3,262.3 -140.0,180.0 -113.3,97.7 -43.3,46.9 43.3,46.9 113.3,97.7 140.0,180.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.08"/>
+  </g>
+  <g class="webPulse" style="animation-delay: 1.5s">
+    <line x1="900" y1="180" x2="1040.0" y2="180.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="900" y1="180" x2="1013.3" y2="262.3" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="900" y1="180" x2="943.3" y2="313.1" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="900" y1="180" x2="856.7" y2="313.1" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="900" y1="180" x2="786.7" y2="262.3" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="900" y1="180" x2="760.0" y2="180.0" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="900" y1="180" x2="786.7" y2="97.7" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="900" y1="180" x2="856.7" y2="46.9" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="900" y1="180" x2="943.3" y2="46.9" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<line x1="900" y1="180" x2="1013.3" y2="97.7" stroke="#C0C0C0" stroke-width="0.5" opacity="0.08"/>
+<polyline points="935.0,180.0 928.3,200.6 910.8,213.3 889.2,213.3 871.7,200.6 865.0,180.0 871.7,159.4 889.2,146.7 910.8,146.7 928.3,159.4 935.0,180.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.08"/>
+<polyline points="970.0,180.0 956.6,221.1 921.6,246.6 878.4,246.6 843.4,221.1 830.0,180.0 843.4,138.9 878.4,113.4 921.6,113.4 956.6,138.9 970.0,180.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.08"/>
+<polyline points="1005.0,180.0 984.9,241.7 932.4,279.9 867.6,279.9 815.1,241.7 795.0,180.0 815.1,118.3 867.6,80.1 932.4,80.1 984.9,118.3 1005.0,180.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.08"/>
+<polyline points="1040.0,180.0 1013.3,262.3 943.3,313.1 856.7,313.1 786.7,262.3 760.0,180.0 786.7,97.7 856.7,46.9 943.3,46.9 1013.3,97.7 1040.0,180.0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.08"/>
+  </g>
+
+  <!-- === ANIMATED WEB STRANDS === -->
+  <path id="webStrand1" d="M 0 20 Q 150 70 300 30 Q 450 -10 600 40 Q 750 80 900 20"
+    fill="none" stroke="#C0C0C0" stroke-width="1.2" opacity="0.3" filter="url(#webGlow)"/>
+  <path id="webStrand2" d="M 0 60 Q 225 10 450 50 Q 675 90 900 50"
+    fill="none" stroke="#C0C0C0" stroke-width="0.8" opacity="0.2" filter="url(#webGlow)"/>
+
+  <!-- === SPIDERMAN SWINGING === -->
+  <g id="spideyGroup" filter="url(#spideyGlow)">
+    <g transform="translate(100, 55)">
+      
+  <g id="spidey">
+    <!-- Body circle (torso) -->
+    <ellipse cx="0" cy="0" rx="14" ry="18" fill="#CC0000"/>
+    <!-- Web pattern lines on chest -->
+    <line x1="-14" y1="0" x2="14" y2="0" stroke="#8B0000" stroke-width="1" opacity="0.6"/>
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#8B0000" stroke-width="1" opacity="0.6"/>
+    <line x1="-10" y1="-14" x2="10" y2="14" stroke="#8B0000" stroke-width="0.7" opacity="0.5"/>
+    <line x1="10" y1="-14" x2="-10" y2="14" stroke="#8B0000" stroke-width="0.7" opacity="0.5"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-25" rx="12" ry="13" fill="#CC0000"/>
+    <!-- Eyes (white lenses) -->
+    <ellipse cx="-5" cy="-27" rx="5" ry="4" fill="white" opacity="0.95"/>
+    <ellipse cx="5" cy="-27" rx="5" ry="4" fill="white" opacity="0.95"/>
+    <!-- Blue mask border -->
+    <ellipse cx="-5" cy="-27" rx="5" ry="4" fill="none" stroke="#0038A8" stroke-width="1"/>
+    <ellipse cx="5" cy="-27" rx="5" ry="4" fill="none" stroke="#0038A8" stroke-width="1"/>
+    <!-- Blue sides of costume -->
+    <path d="M -14 -5 Q -20 5 -14 18 Q -6 10 0 0 Q -6 -10 -14 -5" fill="#0038A8"/>
+    <path d="M 14 -5 Q 20 5 14 18 Q 6 10 0 0 Q 6 -10 14 -5" fill="#0038A8"/>
+    <!-- Arms up (web-slinging pose) -->
+    <line x1="-12" y1="-5" x2="-35" y2="-25" stroke="#CC0000" stroke-width="5" stroke-linecap="round"/>
+    <line x1="12" y1="-5" x2="35" y2="-25" stroke="#0038A8" stroke-width="5" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="-5" y1="18" x2="-15" y2="40" stroke="#CC0000" stroke-width="5" stroke-linecap="round"/>
+    <line x1="5" y1="18" x2="15" y2="40" stroke="#0038A8" stroke-width="5" stroke-linecap="round"/>
+    <!-- Web lines from hands -->
+    <line x1="-35" y1="-25" x2="-80" y2="-10" stroke="#C8C8C8" stroke-width="0.8" opacity="0.6"/>
+    <line x1="35" y1="-25" x2="80" y2="-10" stroke="#C8C8C8" stroke-width="0.8" opacity="0.6"/>
+  </g>
+
+    </g>
+  </g>
+
+  <!-- === TITLE TEXT === -->
+  <g id="spiderTitle">
+    <!-- Main name -->
+    <text x="450" y="80" text-anchor="middle"
+      font-family="'Segoe UI',Arial,sans-serif" font-size="42" font-weight="900"
+      fill="white" letter-spacing="3" opacity="0.95">
+      VAKA JEEVAN REDDY
+    </text>
+    <!-- Spider web underline decoration -->
+    <line x1="200" y1="92" x2="700" y2="92" stroke="#CC0000" stroke-width="1.5" opacity="0.6"/>
+    <!-- Subtitle -->
+    <text x="450" y="118" text-anchor="middle"
+      font-family="'Segoe UI',Arial,sans-serif" font-size="17" font-weight="600"
+      fill="#00D9FF" letter-spacing="5">
+      AI / ML ENGINEER  ·  LLM ARCHITECT  ·  RAG SPECIALIST
+    </text>
+    <!-- Small spider icon (⬡ shaped web) each side -->
+    <text x="180" y="82" font-size="22" fill="#CC0000" opacity="0.7">🕷</text>
+    <text x="700" y="82" font-size="22" fill="#CC0000" opacity="0.7">🕷</text>
+  </g>
+
+  <!-- === BOTTOM BORDER === -->
+  <line x1="0" y1="179" x2="900" y2="179" stroke="#CC0000" stroke-width="2" opacity="0.4"/>
+  <line x1="0" y1="179" x2="900" y2="179" stroke="#0038A8" stroke-width="1" opacity="0.2" stroke-dasharray="20 10"/>
+
+</svg>

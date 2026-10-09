@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Vaka%20Jeevan%20Reddy&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI%20%2F%20ML%20Engineer%20%7C%20LLM%20Architect%20%7C%20RAG%20Specialist&descAlignY=55&descSize=20" alt="Header"/>
+<!-- Spider-Man Animated Header -->
+<img src="./spiderman_header.svg" alt="Vaka Jeevan Reddy - AI/ML Engineer" width="100%"/>
 
 <!-- Typing animation -->
 <a href="https://git.io/typing-svg">
@@ -93,14 +93,10 @@
 <td width="50%" valign="top">
 
 ### 🎯 Core Expertise
-| Domain | Proficiency |
-|--------|------------|
-| LLM Agents & RAG | ████████████ Expert |
-| Python & ML | ████████████ Expert |
-| LangChain/LangGraph | ███████████░ Adv. |
-| FastAPI / React | █████████░░░ Prof. |
-| Deep Learning | █████████░░░ Prof. |
-| Cloud & DevOps | ███████░░░░░ Inter. |
+
+<div align="center">
+<img src="./core_expertise_animated.svg" alt="Core Expertise" width="100%"/>
+</div>
 
 </td>
 </tr>
@@ -256,5 +252,5 @@ Hands-on machine learning practice solutions and labs from Deep-ML platform. Imp
 ---
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="Footer"/>
+<img src="./spiderman_footer.svg" alt="Footer" width="100%"/>
 </div>
