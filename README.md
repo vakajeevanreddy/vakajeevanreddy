@@ -25,7 +25,10 @@
 
 </div>
 
----
+<!-- 🕷️ DIVIDER 1: Spider-Man swings in from left after header -->
+<div align="center">
+<img src="./spidey_divider_1.svg" alt="🕷️" width="100%"/>
+</div>
 
 <div align="center">
   <img src="./profile.jpg" alt="Vaka Jeevan Reddy" width="220" height="220" style="border-radius: 24px; border: 3px solid #00D9FF; object-fit: cover; object-position: center top;"/>
@@ -60,7 +63,8 @@
 </td>
 <td width="48%" valign="middle" align="center" style="padding: 12px;">
 
-<img src="./cartoon_animated.gif" alt="Jeevan Animated Character" width="100%" style="border-radius: 20px;"/>
+<!-- Detailed Spider-Man character SVG instead of cartoon GIF -->
+<img src="./spiderman_character.svg" alt="Spider-Man AI Engineer" width="100%" style="border-radius: 20px;"/>
 
 </td>
 </tr>
@@ -69,6 +73,11 @@
 
 ---
 
+<!-- 🕷️ DIVIDER 2: Spider-Man swings right → left between About Me and Key Skills -->
+<div align="center">
+<img src="./spidey_divider_2.svg" alt="🕷️" width="100%"/>
+</div>
+
 ## 🛠️ Key Skills & Tech Architecture
 
 <div align="center">
@@ -76,6 +85,11 @@
 </div>
 
 ---
+
+<!-- 🕷️ DIVIDER 3: Spider-Man swings left → right between Key Skills and Experience -->
+<div align="center">
+<img src="./spidey_divider_3.svg" alt="🕷️" width="100%"/>
+</div>
 
 ## 💼 Experience
 
@@ -103,6 +117,11 @@
 </table>
 
 ---
+
+<!-- 🕷️ DIVIDER 4: Spider-Man swings right → left between Experience and Projects -->
+<div align="center">
+<img src="./spidey_divider_4.svg" alt="🕷️" width="100%"/>
+</div>
 
 ## 🚀 Featured Projects
 
@@ -201,6 +220,11 @@ Hands-on machine learning practice solutions and labs from Deep-ML platform. Imp
 </div>
 
 ---
+
+<!-- 🕷️ DIVIDER 5: Spider-Man swings left → right between Projects and Stats -->
+<div align="center">
+<img src="./spidey_divider_5.svg" alt="🕷️" width="100%"/>
+</div>
 
 ## 📊 Live GitHub Telemetry & Animated Analytics
 

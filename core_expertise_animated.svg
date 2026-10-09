@@ -1,181 +1,106 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="280" viewBox="0 0 840 280">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="300" viewBox="0 0 840 300">
   <defs>
     
-    <linearGradient id="g0" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00D9FF" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#0095FF" stop-opacity="0.8"/>
+    <linearGradient id="grad0" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D9FF"/>
+      <stop offset="100%" stop-color="#0080CC" stop-opacity="0.75"/>
     </linearGradient>
-    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#34D399" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#059669" stop-opacity="0.8"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.75"/>
     </linearGradient>
-    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#A78BFA" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.8"/>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#6D28D9" stop-opacity="0.75"/>
     </linearGradient>
-    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FBBF24" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.8"/>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0.75"/>
     </linearGradient>
-    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F472B6" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.8"/>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F472B6"/>
+      <stop offset="100%" stop-color="#BE185D" stop-opacity="0.75"/>
     </linearGradient>
-    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#60A5FA" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.8"/>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0.75"/>
     </linearGradient>
-    
-    <filter id="glow0" x="-5%" y="-50%" width="110%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glow1" x="-5%" y="-50%" width="110%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glow2" x="-5%" y="-50%" width="110%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glow3" x="-5%" y="-50%" width="110%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glow4" x="-5%" y="-50%" width="110%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glow5" x="-5%" y="-50%" width="110%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <!-- Bg gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="bgG" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/>
       <stop offset="100%" stop-color="#161b2e"/>
     </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="840" height="280" rx="16" fill="url(#bgGrad)"/>
-  <!-- Border glow -->
-  <rect width="840" height="280" rx="16" fill="none" stroke="#00D9FF" stroke-width="1" opacity="0.25"/>
+  <rect width="840" height="300" rx="16" fill="url(#bgG)"/>
+  <rect width="840" height="300" rx="16" fill="none" stroke="#00D9FF" stroke-width="1" opacity="0.2"/>
 
-  <text x="420" y="28" text-anchor="middle" font-family="'Segoe UI',sans-serif"
-  font-size="17" font-weight="700" fill="#ffffff" letter-spacing="1">
-  🎯 CORE EXPERTISE
-</text>
-  <line x1="30" y1="36" x2="810" y2="36" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+  
+  <text x="420" y="35" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif"
+    font-size="18" font-weight="900" fill="white" letter-spacing="2" opacity="0.95">
+    🎯 CORE EXPERTISE
+  </text>
+  <line x1="40" y1="44" x2="800" y2="44" stroke="white" stroke-width="0.5" opacity="0.12"/>
 
-  <rect x="260" y="58" width="470" height="18" rx="9" fill="#1e2535" opacity="0.8"/><rect id="bar_anim_0" x="260" y="58" width="446" height="18" rx="9"
-      fill="url(#g0)" filter="url(#glow0)">
-      <animate attributeName="width" from="0" to="446" dur="1.4s" begin="0.00s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-    </rect><rect x="260" y="58" width="446" height="8" rx="4"
-      fill="white" opacity="0.1">
-      <animate attributeName="width" from="0" to="446" dur="1.4s" begin="0.00s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-    </rect><circle cx="706" cy="67" r="5" fill="#00D9FF">
-      <animate attributeName="cx" from="260" to="706" dur="1.4s" begin="0.00s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.10s" fill="freeze"/>
-      <animate attributeName="r" values="5;8;5" dur="0.6s" begin="1.30s" fill="freeze"/>
-    </circle><text x="30" y="71" font-family="'Segoe UI',sans-serif" font-size="13"
-      font-weight="600" fill="#00D9FF">LLM Agents & RAG</text><text x="740" y="71" font-family="'Segoe UI',sans-serif" font-size="13"
-      font-weight="700" fill="#00D9FF" opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.20s" fill="freeze"/>
+
+  <rect x="255" y="70" width="505" height="20" rx="10" fill="#1A2035"/><rect x="255" y="70" width="0" height="20" rx="10" fill="url(#grad0)">
+      <animate attributeName="width" from="0" to="479" dur="1.5s" begin="0.0s" fill="freeze"/>
+    </rect><rect x="255" y="70" width="0" height="9" rx="4" fill="white" opacity="0.15">
+      <animate attributeName="width" from="0" to="479" dur="1.5s" begin="0.0s" fill="freeze"/>
+    </rect><text x="230" y="85" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#00D9FF">🤖 LLM Agents & RAG</text><text x="770" y="85" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#00D9FF" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.3s" fill="freeze"/>
       95%
-    </text><rect x="260" y="94" width="470" height="18" rx="9" fill="#1e2535" opacity="0.8"/><rect id="bar_anim_1" x="260" y="94" width="446" height="18" rx="9"
-      fill="url(#g1)" filter="url(#glow1)">
-      <animate attributeName="width" from="0" to="446" dur="1.4s" begin="0.18s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-    </rect><rect x="260" y="94" width="446" height="8" rx="4"
-      fill="white" opacity="0.1">
-      <animate attributeName="width" from="0" to="446" dur="1.4s" begin="0.18s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-    </rect><circle cx="706" cy="103" r="5" fill="#34D399">
-      <animate attributeName="cx" from="260" to="706" dur="1.4s" begin="0.18s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.28s" fill="freeze"/>
-      <animate attributeName="r" values="5;8;5" dur="0.6s" begin="1.48s" fill="freeze"/>
-    </circle><text x="30" y="107" font-family="'Segoe UI',sans-serif" font-size="13"
-      font-weight="600" fill="#34D399">Python & ML</text><text x="740" y="107" font-family="'Segoe UI',sans-serif" font-size="13"
-      font-weight="700" fill="#34D399" opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.38s" fill="freeze"/>
+    </text><circle cx="255" cy="80" r="6" fill="#00D9FF">
+      <animate attributeName="cx" from="255" to="734" dur="1.5s" begin="0.0s" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.0s" fill="freeze"/>
+    </circle><rect x="255" y="110" width="505" height="20" rx="10" fill="#1A2035"/><rect x="255" y="110" width="0" height="20" rx="10" fill="url(#grad1)">
+      <animate attributeName="width" from="0" to="479" dur="1.5s" begin="0.2s" fill="freeze"/>
+    </rect><rect x="255" y="110" width="0" height="9" rx="4" fill="white" opacity="0.15">
+      <animate attributeName="width" from="0" to="479" dur="1.5s" begin="0.2s" fill="freeze"/>
+    </rect><text x="230" y="125" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#34D399">🐍 Python & ML</text><text x="770" y="125" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#34D399" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.5s" fill="freeze"/>
       95%
-    </text><rect x="260" y="130" width="470" height="18" rx="9" fill="#1e2535" opacity="0.8"/><rect id="bar_anim_2" x="260" y="130" width="423" height="18" rx="9"
-      fill="url(#g2)" filter="url(#glow2)">
-      <animate attributeName="width" from="0" to="423" dur="1.4s" begin="0.36s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-    </rect><rect x="260" y="130" width="423" height="8" rx="4"
-      fill="white" opacity="0.1">
-      <animate attributeName="width" from="0" to="423" dur="1.4s" begin="0.36s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-    </rect><circle cx="683" cy="139" r="5" fill="#A78BFA">
-      <animate attributeName="cx" from="260" to="683" dur="1.4s" begin="0.36s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.46s" fill="freeze"/>
-      <animate attributeName="r" values="5;8;5" dur="0.6s" begin="1.66s" fill="freeze"/>
-    </circle><text x="30" y="143" font-family="'Segoe UI',sans-serif" font-size="13"
-      font-weight="600" fill="#A78BFA">LangChain/LangGraph</text><text x="740" y="143" font-family="'Segoe UI',sans-serif" font-size="13"
-      font-weight="700" fill="#A78BFA" opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.56s" fill="freeze"/>
+    </text><circle cx="255" cy="120" r="6" fill="#34D399">
+      <animate attributeName="cx" from="255" to="734" dur="1.5s" begin="0.2s" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.2s" fill="freeze"/>
+    </circle><rect x="255" y="150" width="505" height="20" rx="10" fill="#1A2035"/><rect x="255" y="150" width="0" height="20" rx="10" fill="url(#grad2)">
+      <animate attributeName="width" from="0" to="454" dur="1.5s" begin="0.4s" fill="freeze"/>
+    </rect><rect x="255" y="150" width="0" height="9" rx="4" fill="white" opacity="0.15">
+      <animate attributeName="width" from="0" to="454" dur="1.5s" begin="0.4s" fill="freeze"/>
+    </rect><text x="230" y="165" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#A78BFA">🔗 LangChain/LangGraph</text><text x="770" y="165" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#A78BFA" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.7s" fill="freeze"/>
       90%
-    </text><rect x="260" y="166" width="470" height="18" rx="9" fill="#1e2535" opacity="0.8"/><rect id="bar_anim_3" x="260" y="166" width="376" height="18" rx="9"
-      fill="url(#g3)" filter="url(#glow3)">
-      <animate attributeName="width" from="0" to="376" dur="1.4s" begin="0.54s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-    </rect><rect x="260" y="166" width="376" height="8" rx="4"
-      fill="white" opacity="0.1">
-      <animate attributeName="width" from="0" to="376" dur="1.4s" begin="0.54s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-    </rect><circle cx="636" cy="175" r="5" fill="#FBBF24">
-      <animate attributeName="cx" from="260" to="636" dur="1.4s" begin="0.54s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.64s" fill="freeze"/>
-      <animate attributeName="r" values="5;8;5" dur="0.6s" begin="1.84s" fill="freeze"/>
-    </circle><text x="30" y="179" font-family="'Segoe UI',sans-serif" font-size="13"
-      font-weight="600" fill="#FBBF24">FastAPI / React</text><text x="740" y="179" font-family="'Segoe UI',sans-serif" font-size="13"
-      font-weight="700" fill="#FBBF24" opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.74s" fill="freeze"/>
+    </text><circle cx="255" cy="160" r="6" fill="#A78BFA">
+      <animate attributeName="cx" from="255" to="709" dur="1.5s" begin="0.4s" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.4s" fill="freeze"/>
+    </circle><rect x="255" y="190" width="505" height="20" rx="10" fill="#1A2035"/><rect x="255" y="190" width="0" height="20" rx="10" fill="url(#grad3)">
+      <animate attributeName="width" from="0" to="404" dur="1.5s" begin="0.6s" fill="freeze"/>
+    </rect><rect x="255" y="190" width="0" height="9" rx="4" fill="white" opacity="0.15">
+      <animate attributeName="width" from="0" to="404" dur="1.5s" begin="0.6s" fill="freeze"/>
+    </rect><text x="230" y="205" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#FBBF24">⚡ FastAPI / React</text><text x="770" y="205" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#FBBF24" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.9s" fill="freeze"/>
       80%
-    </text><rect x="260" y="202" width="470" height="18" rx="9" fill="#1e2535" opacity="0.8"/><rect id="bar_anim_4" x="260" y="202" width="376" height="18" rx="9"
-      fill="url(#g4)" filter="url(#glow4)">
-      <animate attributeName="width" from="0" to="376" dur="1.4s" begin="0.72s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-    </rect><rect x="260" y="202" width="376" height="8" rx="4"
-      fill="white" opacity="0.1">
-      <animate attributeName="width" from="0" to="376" dur="1.4s" begin="0.72s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-    </rect><circle cx="636" cy="211" r="5" fill="#F472B6">
-      <animate attributeName="cx" from="260" to="636" dur="1.4s" begin="0.72s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.82s" fill="freeze"/>
-      <animate attributeName="r" values="5;8;5" dur="0.6s" begin="2.02s" fill="freeze"/>
-    </circle><text x="30" y="215" font-family="'Segoe UI',sans-serif" font-size="13"
-      font-weight="600" fill="#F472B6">Deep Learning</text><text x="740" y="215" font-family="'Segoe UI',sans-serif" font-size="13"
-      font-weight="700" fill="#F472B6" opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.92s" fill="freeze"/>
+    </text><circle cx="255" cy="200" r="6" fill="#FBBF24">
+      <animate attributeName="cx" from="255" to="659" dur="1.5s" begin="0.6s" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.6s" fill="freeze"/>
+    </circle><rect x="255" y="230" width="505" height="20" rx="10" fill="#1A2035"/><rect x="255" y="230" width="0" height="20" rx="10" fill="url(#grad4)">
+      <animate attributeName="width" from="0" to="404" dur="1.5s" begin="0.8s" fill="freeze"/>
+    </rect><rect x="255" y="230" width="0" height="9" rx="4" fill="white" opacity="0.15">
+      <animate attributeName="width" from="0" to="404" dur="1.5s" begin="0.8s" fill="freeze"/>
+    </rect><text x="230" y="245" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#F472B6">🧠 Deep Learning</text><text x="770" y="245" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#F472B6" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.1s" fill="freeze"/>
       80%
-    </text><rect x="260" y="238" width="470" height="18" rx="9" fill="#1e2535" opacity="0.8"/><rect id="bar_anim_5" x="260" y="238" width="305" height="18" rx="9"
-      fill="url(#g5)" filter="url(#glow5)">
-      <animate attributeName="width" from="0" to="305" dur="1.4s" begin="0.90s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-    </rect><rect x="260" y="238" width="305" height="8" rx="4"
-      fill="white" opacity="0.1">
-      <animate attributeName="width" from="0" to="305" dur="1.4s" begin="0.90s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-    </rect><circle cx="565" cy="247" r="5" fill="#60A5FA">
-      <animate attributeName="cx" from="260" to="565" dur="1.4s" begin="0.90s" fill="freeze" calcMode="spline"
-        keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.00s" fill="freeze"/>
-      <animate attributeName="r" values="5;8;5" dur="0.6s" begin="2.20s" fill="freeze"/>
-    </circle><text x="30" y="251" font-family="'Segoe UI',sans-serif" font-size="13"
-      font-weight="600" fill="#60A5FA">Cloud & DevOps</text><text x="740" y="251" font-family="'Segoe UI',sans-serif" font-size="13"
-      font-weight="700" fill="#60A5FA" opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.10s" fill="freeze"/>
+    </text><circle cx="255" cy="240" r="6" fill="#F472B6">
+      <animate attributeName="cx" from="255" to="659" dur="1.5s" begin="0.8s" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.8s" fill="freeze"/>
+    </circle><rect x="255" y="270" width="505" height="20" rx="10" fill="#1A2035"/><rect x="255" y="270" width="0" height="20" rx="10" fill="url(#grad5)">
+      <animate attributeName="width" from="0" to="328" dur="1.5s" begin="1.0s" fill="freeze"/>
+    </rect><rect x="255" y="270" width="0" height="9" rx="4" fill="white" opacity="0.15">
+      <animate attributeName="width" from="0" to="328" dur="1.5s" begin="1.0s" fill="freeze"/>
+    </rect><text x="230" y="285" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#60A5FA">☁️ Cloud & DevOps</text><text x="770" y="285" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#60A5FA" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.3s" fill="freeze"/>
       65%
-    </text>
-
+    </text><circle cx="255" cy="280" r="6" fill="#60A5FA">
+      <animate attributeName="cx" from="255" to="583" dur="1.5s" begin="1.0s" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.0s" fill="freeze"/>
+    </circle>
 </svg>

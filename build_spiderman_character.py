@@ -1,0 +1,272 @@
+"""
+Build a detailed Spider-Man SVG character — realistic costume art in SVG.
+High detail red/blue suit with web pattern, dynamic swing pose.
+"""
+
+# We'll build a full, detailed Spider-Man figure as a standalone SVG
+# Size: 500x600 (portrait, for the About Me section)
+W = 500
+H = 600
+
+spiderman_svg = '''<svg xmlns="http://www.w3.org/2000/svg" width="500" height="600" viewBox="0 0 500 600">
+  <defs>
+    <!-- Web pattern for the suit -->
+    <pattern id="webPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 0 10 L 10 0 L 20 10 L 10 20 Z" fill="none" stroke="#8B0000" stroke-width="0.5" opacity="0.6"/>
+      <line x1="10" y1="0" x2="10" y2="20" stroke="#8B0000" stroke-width="0.3" opacity="0.4"/>
+      <line x1="0" y1="10" x2="20" y2="10" stroke="#8B0000" stroke-width="0.3" opacity="0.4"/>
+    </pattern>
+    <!-- Radial gradients for 3D depth -->
+    <radialGradient id="headGrad" cx="45%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#FF3333"/>
+      <stop offset="60%" stop-color="#CC0000"/>
+      <stop offset="100%" stop-color="#880000"/>
+    </radialGradient>
+    <radialGradient id="torsoGrad" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#FF4444"/>
+      <stop offset="50%" stop-color="#CC0000"/>
+      <stop offset="100%" stop-color="#7A0000"/>
+    </radialGradient>
+    <radialGradient id="armGrad" cx="30%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#FF5555"/>
+      <stop offset="100%" stop-color="#880000"/>
+    </radialGradient>
+    <radialGradient id="blueArmGrad" cx="30%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#4455FF"/>
+      <stop offset="100%" stop-color="#001A8B"/>
+    </radialGradient>
+    <radialGradient id="legGrad" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#0033CC"/>
+      <stop offset="100%" stop-color="#000F5C"/>
+    </radialGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#0d1530"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </radialGradient>
+    <!-- Spider emblem gradient -->
+    <radialGradient id="spiderGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6666"/>
+      <stop offset="100%" stop-color="#CC0000"/>
+    </radialGradient>
+    <!-- Glow filter for eyes -->
+    <filter id="eyeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Overall character glow -->
+    <filter id="charGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#CC0000" flood-opacity="0.3" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Web strand filter -->
+    <filter id="webGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      #spideyChar {
+        animation: float 3s ease-in-out infinite;
+        transform-origin: 250px 300px;
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px) rotate(-2deg); }
+        50%       { transform: translateY(-12px) rotate(2deg); }
+      }
+      #eyeL, #eyeR {
+        animation: eyePulse 2s ease-in-out infinite;
+      }
+      @keyframes eyePulse {
+        0%, 100% { opacity: 0.9; }
+        50%       { opacity: 1; filter: url(#eyeGlow); }
+      }
+      #webLine1 {
+        animation: webDangle 3s ease-in-out infinite;
+        transform-origin: 280px 20px;
+      }
+      @keyframes webDangle {
+        0%, 100% { transform: rotate(-2deg); }
+        50%       { transform: rotate(2deg); }
+      }
+      .webStrand {
+        animation: strandPulse 2s ease-in-out infinite;
+      }
+      @keyframes strandPulse {
+        0%, 100% { opacity: 0.6; }
+        50%       { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="600" fill="url(#bgGrad)" rx="20"/>
+  <!-- City skyline silhouette -->
+  <rect x="0" y="450" width="500" height="150" fill="#060910"/>
+  <rect x="10" y="390" width="40" height="160" fill="#080C16"/>
+  <rect x="60" y="420" width="25" height="130" fill="#080C16"/>
+  <rect x="95" y="400" width="35" height="150" fill="#07090F"/>
+  <rect x="140" y="430" width="20" height="120" fill="#080C16"/>
+  <rect x="170" y="380" width="50" height="170" fill="#06090E"/>
+  <rect x="230" y="410" width="30" height="140" fill="#080C16"/>
+  <rect x="270" y="395" width="45" height="155" fill="#07090F"/>
+  <rect x="325" y="425" width="22" height="125" fill="#080C16"/>
+  <rect x="360" y="375" width="55" height="175" fill="#06090E"/>
+  <rect x="425" y="410" width="30" height="140" fill="#080C16"/>
+  <rect x="465" y="390" width="35" height="160" fill="#07090F"/>
+  <!-- Building windows (tiny lit) -->
+  <rect x="20" y="400" width="4" height="4" fill="#FFFFAA" opacity="0.6"/>
+  <rect x="30" y="410" width="4" height="4" fill="#FFFFAA" opacity="0.5"/>
+  <rect x="180" y="390" width="4" height="4" fill="#FFFFAA" opacity="0.6"/>
+  <rect x="195" y="405" width="4" height="4" fill="#FFFFAA" opacity="0.4"/>
+  <rect x="375" y="385" width="4" height="4" fill="#FFFFAA" opacity="0.6"/>
+  <rect x="390" y="400" width="4" height="4" fill="#FFFFAA" opacity="0.5"/>
+  
+  <!-- Web line from top right (what he swings on) -->
+  <g id="webLine1">
+    <path d="M 420 10 Q 380 80 310 140 Q 270 175 260 200" 
+      fill="none" stroke="#E0E0E0" stroke-width="2.5" opacity="0.85" filter="url(#webGlow)"
+      class="webStrand"/>
+    <!-- Web thickness nodes -->
+    <circle cx="380" cy="55" r="1.5" fill="#E0E0E0" opacity="0.7"/>
+    <circle cx="335" cy="105" r="1.5" fill="#E0E0E0" opacity="0.7"/>
+    <circle cx="295" cy="148" r="1.5" fill="#E0E0E0" opacity="0.7"/>
+  </g>
+  <!-- Secondary web strand -->
+  <path d="M 460 5 Q 420 60 380 110 Q 360 140 340 175"
+    fill="none" stroke="#C0C0C0" stroke-width="1.2" opacity="0.45" class="webStrand"
+    style="animation-delay: 0.5s"/>
+
+  <!-- ============================================================ -->
+  <!-- SPIDER-MAN CHARACTER (Dynamic swing pose) -->
+  <!-- ============================================================ -->
+  <g id="spideyChar" filter="url(#charGlow)">
+    
+    <!-- === LEFT LEG (forward/up in swing) === -->
+    <!-- Upper left leg -->
+    <ellipse cx="215" cy="415" rx="22" ry="55" fill="url(#legGrad)" transform="rotate(-35, 215, 415)"/>
+    <!-- Lower left leg -->
+    <ellipse cx="175" cy="450" rx="16" ry="50" fill="url(#legGrad)" transform="rotate(-15, 175, 450)"/>
+    <!-- Left boot -->
+    <ellipse cx="158" cy="488" rx="18" ry="14" fill="#CC0000"/>
+    <ellipse cx="155" cy="486" rx="16" ry="10" fill="#FF3333" opacity="0.6"/>
+
+    <!-- === RIGHT LEG (back/trailing in swing) === -->
+    <!-- Upper right leg -->
+    <ellipse cx="295" cy="430" rx="22" ry="60" fill="url(#legGrad)" transform="rotate(25, 295, 430)"/>
+    <!-- Lower right leg -->
+    <ellipse cx="330" cy="475" rx="16" ry="52" fill="url(#legGrad)" transform="rotate(15, 330, 475)"/>
+    <!-- Right boot -->
+    <ellipse cx="345" cy="515" rx="18" ry="14" fill="#CC0000"/>
+    <ellipse cx="342" cy="513" rx="16" ry="10" fill="#FF3333" opacity="0.6"/>
+
+    <!-- === TORSO === -->
+    <!-- Main torso body -->
+    <ellipse cx="255" cy="340" rx="68" ry="90" fill="url(#torsoGrad)"/>
+    <!-- Web pattern overlay on torso -->
+    <ellipse cx="255" cy="340" rx="68" ry="90" fill="url(#webPattern)" opacity="0.7"/>
+    <!-- Blue sides of torso -->
+    <path d="M 190 310 Q 175 340 182 380 Q 195 400 215 410 Q 235 360 255 340 Q 235 320 210 295 Z"
+      fill="#0033CC" opacity="0.85"/>
+    <path d="M 320 310 Q 335 340 328 380 Q 315 400 295 410 Q 275 360 255 340 Q 275 320 300 295 Z"
+      fill="#0033CC" opacity="0.85"/>
+    <!-- Center chest web seam -->
+    <line x1="255" y1="270" x2="255" y2="420" stroke="#8B0000" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- === SPIDER EMBLEM on chest === -->
+    <g transform="translate(255, 340)">
+      <!-- Spider body -->
+      <ellipse cx="0" cy="0" rx="12" ry="16" fill="#111" opacity="0.9"/>
+      <!-- Spider head -->
+      <ellipse cx="0" cy="-18" rx="8" ry="9" fill="#111" opacity="0.9"/>
+      <!-- Spider legs (8 legs) -->
+      <line x1="-12" y1="-8" x2="-30" y2="-20" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="-12" y1="2" x2="-32" y2="2" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="-12" y1="10" x2="-28" y2="22" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="12" y1="-8" x2="30" y2="-20" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="12" y1="2" x2="32" y2="2" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="12" y1="10" x2="28" y2="22" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- === RIGHT ARM (web-shooting arm - stretched UP toward web) === -->
+    <!-- Upper right arm -->
+    <ellipse cx="315" cy="285" rx="18" ry="55" fill="url(#armGrad)" transform="rotate(-45, 315, 285)"/>
+    <!-- Lower right arm -->
+    <ellipse cx="350" cy="240" rx="14" ry="50" fill="url(#armGrad)" transform="rotate(-60, 350, 240)"/>
+    <!-- Right glove -->
+    <ellipse cx="370" cy="205" rx="20" ry="16" fill="#CC0000"/>
+    <!-- Right hand fingers (web shooter pose - index and pinky up) -->
+    <path d="M 365 195 Q 362 182 360 175" stroke="#CC0000" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M 372 192 Q 371 178 372 170" stroke="#CC0000" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M 380 195 Q 382 182 385 175" stroke="#CC0000" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <!-- Web shooter device on wrist -->
+    <rect x="360" y="210" width="16" height="8" rx="4" fill="#C0C0C0" opacity="0.9"/>
+    <!-- Web coming from hand -->
+    <path d="M 372 172 Q 350 140 310 130" fill="none" stroke="#E0E0E0" stroke-width="1.8" 
+      opacity="0.8" filter="url(#webGlow)" class="webStrand"/>
+
+    <!-- === LEFT ARM (gripping web line) === -->
+    <!-- Upper left arm -->
+    <ellipse cx="195" cy="275" rx="18" ry="55" fill="url(#blueArmGrad)" transform="rotate(40, 195, 275)"/>
+    <!-- Lower left arm -->
+    <ellipse cx="160" cy="230" rx="14" ry="48" fill="url(#blueArmGrad)" transform="rotate(55, 160, 230)"/>
+    <!-- Left glove (red) -->
+    <ellipse cx="140" cy="195" rx="19" ry="15" fill="#CC0000"/>
+    <!-- Gripping fist fingers -->
+    <rect x="128" y="183" width="22" height="7" rx="3.5" fill="#990000"/>
+    <!-- Gripping the web strand -->
+    <path d="M 141 190 L 270 175" fill="none" stroke="#D8D8D8" stroke-width="1.5" opacity="0.7" class="webStrand"/>
+
+    <!-- === HEAD === -->
+    <!-- Neck -->
+    <rect x="238" y="258" width="34" height="22" rx="10" fill="url(#headGrad)"/>
+    <!-- Head shape -->
+    <ellipse cx="255" cy="230" rx="56" ry="65" fill="url(#headGrad)"/>
+    <!-- Web pattern on head -->
+    <ellipse cx="255" cy="230" rx="56" ry="65" fill="url(#webPattern)" opacity="0.55"/>
+    <!-- Blue sides of face -->
+    <path d="M 200 200 Q 196 230 200 255 Q 210 265 222 262 Q 215 230 218 200 Z" fill="#0033CC" opacity="0.8"/>
+    <path d="M 310 200 Q 314 230 310 255 Q 300 265 288 262 Q 295 230 292 200 Z" fill="#0033CC" opacity="0.8"/>
+    <!-- Forehead blue band -->
+    <path d="M 215 175 Q 255 162 295 175 Q 292 198 255 198 Q 218 198 215 175 Z" fill="#0033CC" opacity="0.5"/>
+
+    <!-- === EYES (iconic white lenses) === -->
+    <!-- Left eye -->
+    <g id="eyeL">
+      <ellipse cx="228" cy="220" rx="24" ry="18" fill="white" opacity="0.95"/>
+      <!-- Eye highlight -->
+      <ellipse cx="222" cy="215" rx="8" ry="6" fill="white" opacity="0.4"/>
+      <!-- Eye border/outline -->
+      <ellipse cx="228" cy="220" rx="24" ry="18" fill="none" stroke="#8B0000" stroke-width="1.5"/>
+    </g>
+    <!-- Right eye -->
+    <g id="eyeR">
+      <ellipse cx="282" cy="220" rx="24" ry="18" fill="white" opacity="0.95"/>
+      <!-- Eye highlight -->
+      <ellipse cx="276" cy="215" rx="8" ry="6" fill="white" opacity="0.4"/>
+      <!-- Eye border/outline -->
+      <ellipse cx="282" cy="220" rx="24" ry="18" fill="none" stroke="#8B0000" stroke-width="1.5"/>
+    </g>
+    <!-- Eye glow overlay -->
+    <ellipse cx="228" cy="220" rx="26" ry="20" fill="white" opacity="0.08" filter="url(#eyeGlow)"/>
+    <ellipse cx="282" cy="220" rx="26" ry="20" fill="white" opacity="0.08" filter="url(#eyeGlow)"/>
+
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- Web strands in background for atmosphere -->
+  <!-- ============================================================ -->
+  <path d="M 0 50 Q 80 150 60 250" fill="none" stroke="#888" stroke-width="0.8" opacity="0.25" class="webStrand" style="animation-delay: 1s"/>
+  <path d="M 500 80 Q 420 180 440 280" fill="none" stroke="#888" stroke-width="0.8" opacity="0.25" class="webStrand" style="animation-delay: 0.7s"/>
+  <!-- Atmospheric dots -->
+  <circle cx="100" cy="120" r="1.5" fill="#4466FF" opacity="0.3"/>
+  <circle cx="400" cy="100" r="1.5" fill="#FF4444" opacity="0.3"/>
+  <circle cx="50" cy="300" r="1" fill="#4466FF" opacity="0.2"/>
+  <circle cx="460" cy="280" r="1" fill="#FF4444" opacity="0.2"/>
+
+</svg>'''
+
+out = r"C:\Users\lenovo\OneDrive\Desktop\github_profile\spiderman_character.svg"
+with open(out, "w", encoding="utf-8") as f:
+    f.write(spiderman_svg)
+print(f"Saved: {out} ({len(spiderman_svg)} bytes)")

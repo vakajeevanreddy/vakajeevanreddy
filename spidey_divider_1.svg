@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="100" viewBox="0 0 900 100">
+  <defs>
+    <linearGradient id="divBg1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CC0000" stop-opacity="0.07"/>
+      <stop offset="50%" stop-color="#0d1117" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0033CC" stop-opacity="0.07"/>
+    </linearGradient>
+    <filter id="spideyGlow1" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#CC0000" flood-opacity="0.5" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      #spideyDiv1 {
+        animation: swing1 0.8s ease-in-out infinite alternate;
+        transform-origin: 150px 10px;
+      }
+      @keyframes swing1 {
+        from { transform: rotate(-4deg); }
+        to   { transform: rotate(4deg); }
+      }
+      .divWebPulse1 {
+        animation: pulse1 2.5s ease-in-out infinite;
+      }
+      @keyframes pulse1 {
+        0%, 100% { opacity: 0.1; }
+        50%       { opacity: 0.2; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="100" fill="url(#divBg1)"/>
+  
+  <!-- Horizontal center line -->
+  <line x1="0" y1="50" x2="900" y2="50" stroke="#CC0000" stroke-width="0.5" opacity="0.15" stroke-dasharray="8 6"/>
+
+  <!-- Web corner patterns -->
+  <g class="divWebPulse1"><line x1="0" y1="0" x2="140" y2="0" stroke="#C0C0C0" stroke-width="0.6" opacity="0.1"/>
+<line x1="0" y1="0" x2="113" y2="82" stroke="#C0C0C0" stroke-width="0.6" opacity="0.1"/>
+<line x1="0" y1="0" x2="43" y2="133" stroke="#C0C0C0" stroke-width="0.6" opacity="0.1"/>
+<line x1="0" y1="0" x2="-43" y2="133" stroke="#C0C0C0" stroke-width="0.6" opacity="0.1"/>
+<line x1="0" y1="0" x2="-113" y2="82" stroke="#C0C0C0" stroke-width="0.6" opacity="0.1"/>
+<line x1="0" y1="0" x2="-140" y2="0" stroke="#C0C0C0" stroke-width="0.6" opacity="0.1"/>
+<line x1="0" y1="0" x2="-113" y2="-82" stroke="#C0C0C0" stroke-width="0.6" opacity="0.1"/>
+<line x1="0" y1="0" x2="-43" y2="-133" stroke="#C0C0C0" stroke-width="0.6" opacity="0.1"/>
+<line x1="0" y1="0" x2="43" y2="-133" stroke="#C0C0C0" stroke-width="0.6" opacity="0.1"/>
+<line x1="0" y1="0" x2="113" y2="-82" stroke="#C0C0C0" stroke-width="0.6" opacity="0.1"/>
+<polyline points="56,0 45,33 17,53 -17,53 -45,33 -56,0 -45,-33 -17,-53 17,-53 45,-33 56,0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.1"/>
+<polyline points="98,0 79,58 30,93 -30,93 -79,58 -98,0 -79,-58 -30,-93 30,-93 79,-58 98,0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.1"/>
+<polyline points="140,0 113,82 43,133 -43,133 -113,82 -140,0 -113,-82 -43,-133 43,-133 113,-82 140,0" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.1"/></g>
+  <g class="divWebPulse1" style="animation-delay: 1.2s"><line x1="900" y1="100" x2="1020" y2="100" stroke="#C0C0C0" stroke-width="0.6" opacity="0.09"/>
+<line x1="900" y1="100" x2="985" y2="185" stroke="#C0C0C0" stroke-width="0.6" opacity="0.09"/>
+<line x1="900" y1="100" x2="900" y2="220" stroke="#C0C0C0" stroke-width="0.6" opacity="0.09"/>
+<line x1="900" y1="100" x2="815" y2="185" stroke="#C0C0C0" stroke-width="0.6" opacity="0.09"/>
+<line x1="900" y1="100" x2="780" y2="100" stroke="#C0C0C0" stroke-width="0.6" opacity="0.09"/>
+<line x1="900" y1="100" x2="815" y2="15" stroke="#C0C0C0" stroke-width="0.6" opacity="0.09"/>
+<line x1="900" y1="100" x2="900" y2="-20" stroke="#C0C0C0" stroke-width="0.6" opacity="0.09"/>
+<line x1="900" y1="100" x2="985" y2="15" stroke="#C0C0C0" stroke-width="0.6" opacity="0.09"/>
+<polyline points="948,100 934,134 900,148 866,134 852,100 866,66 900,52 934,66 948,100" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.09"/>
+<polyline points="984,100 959,159 900,184 841,159 816,100 841,41 900,16 959,41 984,100" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.09"/>
+<polyline points="1020,100 985,185 900,220 815,185 780,100 815,15 900,-20 985,15 1020,100" fill="none" stroke="#C0C0C0" stroke-width="0.4" opacity="0.09"/></g>
+
+  <!-- Web strands -->
+  <path d="M 0 50 Q 450 50 900 50" fill="none" stroke="#C0C0C0" stroke-width="1" opacity="0.2"/>
+  <path d="M 0 33 Q 300 66 600 25 Q 720 10 900 33" fill="none" stroke="#C0C0C0" stroke-width="0.7" opacity="0.15"/>
+
+  <!-- Spider-Man character -->
+  <g id="spideyDiv1" filter="url(#spideyGlow1)">
+    
+    <!-- Web rope -->
+    <line x1="70" y1="10" x2="150" y2="37" 
+      stroke="#D0D0D0" stroke-width="1.8" opacity="0.85"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="37" rx="14" ry="16" fill="#CC0000"/>
+    <!-- Eyes -->
+    <ellipse cx="146" cy="34" rx="6" ry="5" fill="white" opacity="0.95"/>
+    <ellipse cx="154" cy="34" rx="6" ry="5" fill="white" opacity="0.95"/>
+    <!-- Torso -->
+    <ellipse cx="150" cy="60" rx="16" ry="22" fill="#CC0000"/>
+    <!-- Blue sides -->
+    <path d="M 134 50 Q 128 60 134 77 Q 142 70 150 60 Q 142 49 134 50 Z" fill="#0033CC" opacity="0.9"/>
+    <path d="M 166 50 Q 172 60 166 77 Q 158 70 150 60 Q 158 49 166 50 Z" fill="#0033CC" opacity="0.9"/>
+    <!-- Spider emblem -->
+    <ellipse cx="150" cy="60" rx="5" ry="7" fill="#111" opacity="0.8"/>
+    <!-- Left arm (up, shooting web) -->
+    <line x1="136" y1="50" x2="115" y2="20" stroke="#CC0000" stroke-width="6" stroke-linecap="round"/>
+    <!-- Right arm (gripping rope) -->
+    <line x1="164" y1="45" x2="70" y2="10" stroke="#CC0000" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+    <!-- Left leg -->
+    <line x1="142" y1="82" x2="125" y2="115" stroke="#0033CC" stroke-width="7" stroke-linecap="round"/>
+    <!-- Right leg -->
+    <line x1="158" y1="82" x2="180" y2="110" stroke="#0033CC" stroke-width="7" stroke-linecap="round"/>
+    <!-- Boots -->
+    <ellipse cx="125" cy="117" rx="10" ry="7" fill="#CC0000"/>
+    <ellipse cx="180" cy="112" rx="10" ry="7" fill="#CC0000"/>
+    <!-- Web from shooting hand -->
+    <line x1="115" y1="20" x2="30" y2="-10" 
+      stroke="#D0D0D0" stroke-width="1.2" opacity="0.7"/>
+    
+  </g>
+
+  <!-- Top & bottom border lines -->
+  <line x1="0" y1="0" x2="900" y2="0" stroke="#CC0000" stroke-width="1.5" opacity="0.35"/>
+  <line x1="0" y1="100" x2="900" y2="100" stroke="#0033CC" stroke-width="1.5" opacity="0.25"/>
+</svg>
