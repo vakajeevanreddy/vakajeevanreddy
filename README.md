@@ -130,7 +130,7 @@
 ### 🏥 [AIVOA-CRM-HCP](https://github.com/vakajeevanreddy/AIVOA-CRM-HCP)
 > **AI-Powered Healthcare CRM**
 
-AI-powered CRM system for documenting Healthcare Professional (HCP) interactions. Built with **React** frontend and **FastAPI** backend, enabling intelligent interaction logging, analytics, and workflow automation for medical sales teams.
+AI-powered CRM system for documenting Healthcare Professional (HCP) interactions. Built with React frontend and FastAPI backend, enabling interaction logging, analytics, and workflow automation.
 
 **Tech Stack:**
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -148,7 +148,7 @@ AI-powered CRM system for documenting Healthcare Professional (HCP) interactions
 ### 🧠 [Customer Health Care CRM App](https://github.com/vakajeevanreddy/Customer_Health_care_crm_app)
 > **Intelligent Customer Analytics**
 
-End-to-end ML-powered CRM app for customer health care management. Combines predictive analytics with intelligent data pipelines for actionable healthcare insights.
+End-to-end ML-powered CRM application for patient health tracking. Combines predictive analytics, patient risk stratification, and automated data pipelines for clinical decision support.
 
 **Tech Stack:**
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -168,11 +168,12 @@ End-to-end ML-powered CRM app for customer health care management. Combines pred
 ### 📚 [SkC_Jeevan_Tutor](https://github.com/vakajeevanreddy/SkC_Jeevan_Tutor)
 > **Interactive Python Learning Platform**
 
-A web-based Python learning tutorial offering interactive, structured lessons, live coding environments, and progress tracking for beginners.
+A web-based interactive Python learning tutorial offering structured lessons, live browser-based code execution sandbox, and automated test-case evaluation.
 
 **Tech Stack:**
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 
 </td>
@@ -185,7 +186,7 @@ A web-based Python learning tutorial offering interactive, structured lessons, l
 ### 🏠 [California House Price Prediction](https://github.com/vakajeevanreddy/California_house_price_pred)
 > **ML Regression Model**
 
-End-to-end machine learning project predicting California housing prices using advanced regression techniques. Includes EDA, feature engineering, model tuning and evaluation.
+End-to-end machine learning project predicting California housing prices using advanced regression techniques. Includes EDA, feature engineering, and model tuning.
 
 **Tech Stack:**
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -205,11 +206,12 @@ End-to-end machine learning project predicting California housing prices using a
 ### 🤖 [Deep Learning Projects](https://github.com/vakajeevanreddy/Deeplearning_projects)
 > **Neural Network Experiments**
 
-A collection of deep learning experiments including CNNs, RNNs, transformers, computer vision, NLP, and sequence modeling.
+A collection of deep learning implementations including CNNs, RNNs, transformers, computer vision, NLP architectures, and custom loss convergence tracking.
 
 **Tech Stack:**
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
 </td>
@@ -222,11 +224,12 @@ A collection of deep learning experiments including CNNs, RNNs, transformers, co
 ### 📐 [Deep-ML Practice](https://github.com/vakajeevanreddy/deep-ml)
 > **ML Algorithm Implementation**
 
-Hands-on ML practice from Deep-ML platform — implementing ML algorithms from scratch to build deep understanding of mathematical foundations.
+Hands-on ML practice from Deep-ML platform — implementing core ML algorithms from scratch in pure NumPy to master gradients, loss surfaces, and optimization.
 
 **Tech Stack:**
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![Linear Algebra](https://img.shields.io/badge/-Linear_Algebra-555555?style=flat&logo=scipy&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
 </td>
