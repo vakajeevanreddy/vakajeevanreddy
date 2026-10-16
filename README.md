@@ -124,7 +124,7 @@
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/AIVOA-CRM-HCP">
-  <img src="./assets/projects/aivoa_crm.svg" alt="AIVOA-CRM-HCP Project Preview" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_aivoa_crm.gif" alt="AIVOA-CRM-HCP Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🏥 [AIVOA-CRM-HCP](https://github.com/vakajeevanreddy/AIVOA-CRM-HCP)
@@ -142,7 +142,7 @@ AI-powered CRM system for documenting Healthcare Professional (HCP) interactions
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/Customer_Health_care_crm_app">
-  <img src="./assets/projects/customer_healthcare.svg" alt="Customer Healthcare CRM App Preview" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_customer_healthcare.gif" alt="Customer Healthcare CRM App Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🧠 [Customer Health Care CRM App](https://github.com/vakajeevanreddy/Customer_Health_care_crm_app)
@@ -162,7 +162,7 @@ End-to-end ML-powered CRM app for customer health care management. Combines pred
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/SkC_Jeevan_Tutor">
-  <img src="./assets/projects/skc_tutor.svg" alt="SkC Jeevan Tutor Preview" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_skc_tutor.gif" alt="SkC Jeevan Tutor Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 📚 [SkC_Jeevan_Tutor](https://github.com/vakajeevanreddy/SkC_Jeevan_Tutor)
@@ -179,7 +179,7 @@ A web-based Python learning tutorial offering interactive, structured lessons, l
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/California_house_price_pred">
-  <img src="./assets/projects/california_housing.svg" alt="California House Price Prediction Preview" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_california_housing.gif" alt="California House Price Prediction Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🏠 [California House Price Prediction](https://github.com/vakajeevanreddy/California_house_price_pred)
@@ -199,7 +199,7 @@ End-to-end machine learning project predicting California housing prices using a
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/Deeplearning_projects">
-  <img src="./assets/projects/deep_learning.svg" alt="Deep Learning Projects Preview" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_deep_learning.gif" alt="Deep Learning Projects Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🤖 [Deep Learning Projects](https://github.com/vakajeevanreddy/Deeplearning_projects)
@@ -216,7 +216,7 @@ A collection of deep learning experiments including CNNs, RNNs, transformers, co
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/deep-ml">
-  <img src="./assets/projects/deep_ml.svg" alt="Deep-ML Practice Preview" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_deep_ml.gif" alt="Deep-ML Practice Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 📐 [Deep-ML Practice](https://github.com/vakajeevanreddy/deep-ml)
