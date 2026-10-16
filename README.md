@@ -72,7 +72,7 @@
 <td width="45%" valign="middle" align="center" style="padding: 16px;">
 
 <!-- 3D AI/ML Engineer Animated Avatar (waves Hi → presents interests) -->
-<img src="./aiml_avatar_animated.gif" alt="Jeevan - AI/ML Engineer" width="100%" style="border-radius: 20px; max-width: 380px; box-shadow: 0 0 30px rgba(0, 217, 255, 0.3);"/>
+<img src="./aiml_avatar_animated.gif?v=3" alt="Jeevan - AI/ML Engineer" width="100%" style="border-radius: 20px; max-width: 380px; box-shadow: 0 0 30px rgba(0, 217, 255, 0.3);"/>
 
 </td>
 </tr>
@@ -83,7 +83,7 @@
 ## 🛠️ Key Skills & Tech Architecture
 
 <div align="center">
-  <img src="./key_skills_wheel.svg" alt="Key Skills Architecture" width="100%" style="border-radius: 16px;"/>
+  <img src="./key_skills_wheel.svg?v=3" alt="Key Skills Architecture" width="100%" style="border-radius: 16px;"/>
 </div>
 
 ---
@@ -106,7 +106,7 @@
 ### 🎯 Core Expertise
 
 <div align="center">
-<img src="./core_expertise_animated.svg" alt="Core Expertise" width="100%"/>
+<img src="./core_expertise_animated.gif?v=3" alt="Core Expertise" width="100%"/>
 </div>
 
 </td>
@@ -124,7 +124,7 @@
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/AIVOA-CRM-HCP">
-  <img src="./project_aivoa_crm.gif" alt="AIVOA-CRM-HCP Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_aivoa_crm.gif?v=3" alt="AIVOA-CRM-HCP Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🏥 [AIVOA-CRM-HCP](https://github.com/vakajeevanreddy/AIVOA-CRM-HCP)
@@ -142,7 +142,7 @@ AI-powered CRM system for documenting Healthcare Professional (HCP) interactions
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/Customer_Health_care_crm_app">
-  <img src="./project_customer_healthcare.gif" alt="Customer Healthcare CRM App Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_customer_healthcare.gif?v=3" alt="Customer Healthcare CRM App Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🧠 [Customer Health Care CRM App](https://github.com/vakajeevanreddy/Customer_Health_care_crm_app)
@@ -162,7 +162,7 @@ End-to-end ML-powered CRM application for patient health tracking. Combines pred
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/SkC_Jeevan_Tutor">
-  <img src="./project_skc_tutor.gif" alt="SkC Jeevan Tutor Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_skc_tutor.gif?v=3" alt="SkC Jeevan Tutor Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 📚 [SkC_Jeevan_Tutor](https://github.com/vakajeevanreddy/SkC_Jeevan_Tutor)
@@ -180,7 +180,7 @@ A web-based interactive Python learning tutorial offering structured lessons, li
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/California_house_price_pred">
-  <img src="./project_california_housing.gif" alt="California House Price Prediction Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_california_housing.gif?v=3" alt="California House Price Prediction Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🏠 [California House Price Prediction](https://github.com/vakajeevanreddy/California_house_price_pred)
@@ -200,7 +200,7 @@ End-to-end machine learning project predicting California housing prices using a
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/Deeplearning_projects">
-  <img src="./project_deep_learning.gif" alt="Deep Learning Projects Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_deep_learning.gif?v=3" alt="Deep Learning Projects Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🤖 [Deep Learning Projects](https://github.com/vakajeevanreddy/Deeplearning_projects)
@@ -218,7 +218,7 @@ A collection of deep learning implementations including CNNs, RNNs, transformers
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/deep-ml">
-  <img src="./project_deep_ml.gif" alt="Deep-ML Practice Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_deep_ml.gif?v=3" alt="Deep-ML Practice Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 📐 [Deep-ML Practice](https://github.com/vakajeevanreddy/deep-ml)
@@ -245,7 +245,7 @@ Hands-on ML practice from Deep-ML platform — implementing core ML algorithms f
 <div align="center">
 
 <!-- Custom Animated Streak Dashboard (fire counter + contribution bars) -->
-<img src="./streak_animated.svg" alt="GitHub Streak & Contributions" width="100%" style="border-radius: 16px;"/>
+<img src="./streak_animated.gif?v=3" alt="GitHub Streak & Contributions" width="100%" style="border-radius: 16px;"/>
 
 <br/><br/>
 
