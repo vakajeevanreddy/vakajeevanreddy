@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="150" viewBox="0 0 480 150">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1C1917"/>
+      <stop offset="60%" stop-color="#292524"/>
+      <stop offset="100%" stop-color="#0C0A09"/>
+    </linearGradient>
+    <linearGradient id="curveG4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+    <filter id="glow4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="480" height="150" rx="12" fill="url(#bg4)" stroke="#F59E0B" stroke-width="1.5"/>
+
+  <!-- Icon: House with Trend Arrow -->
+  <g transform="translate(30, 24)" filter="url(#glow4)">
+    <circle cx="16" cy="16" r="18" fill="#451A03" stroke="#FBBF24" stroke-width="1.5"/>
+    <path d="M 8 18 L 16 10 L 24 18 L 24 24 L 8 24 Z" fill="none" stroke="#FDE68A" stroke-width="1.5"/>
+    <rect x="13" y="19" width="6" height="5" fill="#FDE68A"/>
+  </g>
+
+  <!-- Title & Subtitle -->
+  <text x="75" y="32" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">California House Price Pred</text>
+  <text x="75" y="48" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" fill="#FBBF24">ML REGRESSION &amp; GEOSPATIAL VALUATION</text>
+
+  <!-- Regression Graph on the right -->
+  <g transform="translate(290, 20)">
+    <rect width="170" height="85" rx="8" fill="#141211" stroke="#44403C" stroke-width="1"/>
+    <line x1="20" y1="70" x2="155" y2="70" stroke="#78716C" stroke-width="1"/>
+    <line x1="20" y1="15" x2="20" y2="70" stroke="#78716C" stroke-width="1"/>
+    
+    <!-- Data points -->
+    <circle cx="35" cy="62" r="2.5" fill="#FBBF24" opacity="0.6"/>
+    <circle cx="50" cy="55" r="3" fill="#FBBF24" opacity="0.8"/>
+    <circle cx="68" cy="48" r="2.5" fill="#FBBF24" opacity="0.7"/>
+    <circle cx="85" cy="40" r="3" fill="#FBBF24" opacity="0.9"/>
+    <circle cx="105" cy="32" r="2.5" fill="#FBBF24" opacity="0.7"/>
+    <circle cx="125" cy="25" r="3" fill="#FBBF24" opacity="0.8"/>
+    <circle cx="145" cy="22" r="3.5" fill="#FBBF24" opacity="0.9"/>
+
+    <!-- Best Fit Regression Line -->
+    <line x1="25" y1="67" x2="150" y2="20" stroke="url(#curveG4)" stroke-width="2" filter="url(#glow4)"/>
+    <text x="90" y="16" font-family="monospace" font-size="8.5" font-weight="bold" fill="#F59E0B">R² = 0.86</text>
+  </g>
+
+  <!-- Metrics / Features -->
+  <g transform="translate(24, 118)">
+    <rect x="0" y="0" width="115" height="22" rx="11" fill="#451A03" stroke="#D97706" stroke-width="1"/>
+    <text x="57" y="14" font-family="monospace" font-size="10" font-weight="bold" fill="#FDE68A" text-anchor="middle">📈 Random Forest</text>
+
+    <rect x="123" y="0" width="115" height="22" rx="11" fill="#3B0764" stroke="#7E22CE" stroke-width="1"/>
+    <text x="180" y="14" font-family="monospace" font-size="10" font-weight="bold" fill="#E9D5FF" text-anchor="middle">🗺️ Geo Features</text>
+
+    <rect x="246" y="0" width="115" height="22" rx="11" fill="#1C1917" stroke="#78716C" stroke-width="1"/>
+    <text x="303" y="14" font-family="monospace" font-size="10" font-weight="bold" fill="#F5F5F4" text-anchor="middle">📊 Scikit-Learn</text>
+  </g>
+</svg>

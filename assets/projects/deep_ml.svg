@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="150" viewBox="0 0 480 150">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#021E36"/>
+      <stop offset="50%" stop-color="#082F49"/>
+      <stop offset="100%" stop-color="#0B132B"/>
+    </linearGradient>
+    <filter id="glow6" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="480" height="150" rx="12" fill="url(#bg6)" stroke="#0284C7" stroke-width="1.5"/>
+
+  <!-- Math / Matrix Icon -->
+  <g transform="translate(30, 24)" filter="url(#glow6)">
+    <circle cx="16" cy="16" r="18" fill="#0C4A6E" stroke="#38BDF8" stroke-width="1.5"/>
+    <text x="16" y="22" font-size="17" text-anchor="middle" fill="#E0F2FE" font-weight="bold">∑</text>
+  </g>
+
+  <!-- Title & Subtitle -->
+  <text x="75" y="32" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">Deep-ML Practice</text>
+  <text x="75" y="48" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" fill="#38BDF8">ALGORITHMS BUILT FROM SCRATCH IN PURE NUMPY</text>
+
+  <!-- Mathematical Formula & Matrix Board on the right -->
+  <g transform="translate(285, 20)">
+    <rect width="175" height="85" rx="8" fill="#031A2F" stroke="#0369A1" stroke-width="1"/>
+    <!-- Gradient descent formula display -->
+    <text x="14" y="28" font-family="Georgia,serif" font-size="13" font-style="italic" fill="#38BDF8">θ := θ - α ∇J(θ)</text>
+    <line x1="14" y1="40" x2="160" y2="40" stroke="#075985" stroke-width="1"/>
+    <!-- Matrix bracket visual -->
+    <text x="14" y="58" font-family="monospace" font-size="10" fill="#7DD3FC">[W·X + b] → ReLU</text>
+    <text x="14" y="74" font-family="monospace" font-size="9" fill="#4ADE80">Backprop: ∂L/∂W = δ·Xᵀ</text>
+  </g>
+
+  <!-- Metric Badges -->
+  <g transform="translate(24, 118)">
+    <rect x="0" y="0" width="115" height="22" rx="11" fill="#0C4A6E" stroke="#0284C7" stroke-width="1"/>
+    <text x="57" y="14" font-family="monospace" font-size="10" font-weight="bold" fill="#BAE6FD" text-anchor="middle">📐 Pure NumPy</text>
+
+    <rect x="123" y="0" width="125" height="22" rx="11" fill="#14532D" stroke="#16A34A" stroke-width="1"/>
+    <text x="185" y="14" font-family="monospace" font-size="10" font-weight="bold" fill="#BBF7D0" text-anchor="middle">⚡ Zero Frameworks</text>
+
+    <rect x="256" y="0" width="115" height="22" rx="11" fill="#1E1B4B" stroke="#4338CA" stroke-width="1"/>
+    <text x="313" y="14" font-family="monospace" font-size="10" font-weight="bold" fill="#C7D2FE" text-anchor="middle">🎓 Math Proofs</text>
+  </g>
+</svg>
