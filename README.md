@@ -71,8 +71,8 @@
 </td>
 <td width="45%" valign="middle" align="center" style="padding: 16px;">
 
-<!-- 3D AI/ML Engineer Avatar -->
-<img src="./aiml_avatar.jpg" alt="Jeevan - AI/ML Engineer" width="100%" style="border-radius: 20px; max-width: 380px; box-shadow: 0 0 30px rgba(0, 217, 255, 0.3);"/>
+<!-- 3D AI/ML Engineer Animated Avatar (waves Hi → presents interests) -->
+<img src="./aiml_avatar_animated.gif" alt="Jeevan - AI/ML Engineer" width="100%" style="border-radius: 20px; max-width: 380px; box-shadow: 0 0 30px rgba(0, 217, 255, 0.3);"/>
 
 </td>
 </tr>
@@ -217,17 +217,19 @@ Hands-on ML practice from Deep-ML platform — implementing ML algorithms from s
 
 <div align="center">
 
-<img src="./github_analytics_animated.svg" alt="AI/ML Code Velocity Dashboard" width="100%" style="border-radius: 16px;"/>
+<!-- Custom Animated Streak Dashboard (fire counter + contribution bars) -->
+<img src="./streak_animated.svg" alt="GitHub Streak & Contributions" width="100%" style="border-radius: 16px;"/>
 
 <br/><br/>
 
+<!-- GitHub Stats + Top Languages -->
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=vakajeevanreddy&show_icons=true&theme=tokyonight&hide_border=true&border_radius=14&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-<img width="49%" src="https://streak-stats.demolab.com?user=vakajeevanreddy&theme=tokyonight&hide_border=true&border_radius=14&mode=daily" alt="GitHub Streak"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vakajeevanreddy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&border_radius=14" alt="Top Languages"/>
 
 <br/><br/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vakajeevanreddy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&border_radius=14" alt="Top Languages"/>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vakajeevanreddy&theme=tokyonight&utcOffset=5.5" alt="Productive Time"/>
+<!-- AI/ML Code Velocity Dashboard -->
+<img src="./github_analytics_animated.svg" alt="AI/ML Code Velocity Dashboard" width="100%" style="border-radius: 16px;"/>
 
 </div>
 
