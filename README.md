@@ -120,7 +120,7 @@
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/AIVOA-CRM-HCP">
-  <img src="./project_aivoa_crm.gif?v=7" alt="AIVOA-CRM-HCP Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_aivoa_crm.gif?v=9" alt="AIVOA-CRM-HCP Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🏥 [AIVOA-CRM-HCP](https://github.com/vakajeevanreddy/AIVOA-CRM-HCP)
@@ -128,17 +128,13 @@
 
 AI-powered CRM system for documenting Healthcare Professional (HCP) interactions. Built with React frontend and FastAPI backend, enabling interaction logging, analytics, and workflow automation.
 
-**Tech Stack:**
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/-React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+**Technologies:** `FastAPI` • `React` • `Python` • `OpenAI Whisper` • `PostgreSQL`
 
 </td>
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/Customer_Health_care_crm_app">
-  <img src="./project_customer_healthcare.gif?v=7" alt="Customer Healthcare CRM App Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_customer_healthcare.gif?v=9" alt="Customer Healthcare CRM App Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🧠 [Customer Health Care CRM App](https://github.com/vakajeevanreddy/Customer_Health_care_crm_app)
@@ -146,11 +142,7 @@ AI-powered CRM system for documenting Healthcare Professional (HCP) interactions
 
 End-to-end ML-powered CRM application for patient health tracking. Combines predictive analytics, patient risk stratification, and automated data pipelines for clinical decision support.
 
-**Tech Stack:**
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+**Technologies:** `Python` • `Scikit-Learn` • `Pandas` • `Jupyter` • `ROC-AUC`
 
 </td>
 </tr>
@@ -158,7 +150,7 @@ End-to-end ML-powered CRM application for patient health tracking. Combines pred
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/SkC_Jeevan_Tutor">
-  <img src="./project_skc_tutor.gif?v=7" alt="SkC Jeevan Tutor Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_skc_tutor.gif?v=9" alt="SkC Jeevan Tutor Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 📚 [SkC_Jeevan_Tutor](https://github.com/vakajeevanreddy/SkC_Jeevan_Tutor)
@@ -166,17 +158,13 @@ End-to-end ML-powered CRM application for patient health tracking. Combines pred
 
 A web-based interactive Python learning tutorial offering structured lessons, live browser-based code execution sandbox, and automated test-case evaluation.
 
-**Tech Stack:**
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+**Technologies:** `Python 3.12` • `JavaScript` • `HTML5 / CSS3` • `WebAssembly`
 
 </td>
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/California_house_price_pred">
-  <img src="./project_california_housing.gif?v=7" alt="California House Price Prediction Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_california_housing.gif?v=9" alt="California House Price Prediction Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🏠 [California House Price Prediction](https://github.com/vakajeevanreddy/California_house_price_pred)
@@ -184,11 +172,7 @@ A web-based interactive Python learning tutorial offering structured lessons, li
 
 End-to-end machine learning project predicting California housing prices using advanced regression techniques. Includes EDA, feature engineering, and model tuning.
 
-**Tech Stack:**
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557c?style=flat&logo=matplotlib&logoColor=white)
+**Technologies:** `Python` • `Scikit-Learn` • `Pandas` • `Gradient Boosting` • `Matplotlib`
 
 </td>
 </tr>
@@ -196,7 +180,7 @@ End-to-end machine learning project predicting California housing prices using a
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/Deeplearning_projects">
-  <img src="./project_deep_learning.gif?v=7" alt="Deep Learning Projects Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_deep_learning.gif?v=9" alt="Deep Learning Projects Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🤖 [Deep Learning Projects](https://github.com/vakajeevanreddy/Deeplearning_projects)
@@ -204,17 +188,13 @@ End-to-end machine learning project predicting California housing prices using a
 
 A collection of deep learning implementations including CNNs, RNNs, transformers, computer vision, NLP architectures, and custom loss convergence tracking.
 
-**Tech Stack:**
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+**Technologies:** `PyTorch` • `TensorFlow` • `CNNs & Transformers` • `Jupyter`
 
 </td>
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/deep-ml">
-  <img src="./project_deep_ml.gif?v=7" alt="Deep-ML Practice Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_deep_ml.gif?v=9" alt="Deep-ML Practice Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 📐 [Deep-ML Practice](https://github.com/vakajeevanreddy/deep-ml)
@@ -222,11 +202,7 @@ A collection of deep learning implementations including CNNs, RNNs, transformers
 
 Hands-on ML practice from Deep-ML platform — implementing core ML algorithms from scratch in pure NumPy to master gradients, loss surfaces, and optimization.
 
-**Tech Stack:**
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Linear Algebra](https://img.shields.io/badge/-Linear_Algebra-555555?style=flat&logo=scipy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+**Technologies:** `Pure NumPy` • `Vector Calculus` • `SGD Optimization` • `Linear Algebra`
 
 </td>
 </tr>
