@@ -88,30 +88,26 @@
 
 ---
 
-## 💼 Experience
+## 💼 Experience & Technical Focus
+
+<div align="center">
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-### 🚀 Current Focus
-- 🤖 **LLM Agent Development** — Autonomous agents with LangGraph & LangChain for complex multi-step reasoning
-- 🔗 **RAG Pipelines** — Retrieval-augmented generation with vector databases
-- 🏥 **Healthcare AI** — Intelligent CRM systems for HCP interaction tracking
-- 📊 **Predictive Modeling** — End-to-end ML pipelines from ingestion to deployment
+<img src="./current_focus_animated.gif?v=5" alt="Current Focus" width="100%" style="border-radius: 12px;"/>
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-### 🎯 Core Expertise
-
-<div align="center">
-<img src="./core_expertise_animated.gif?v=3" alt="Core Expertise" width="100%"/>
-</div>
+<img src="./core_expertise_animated.gif?v=5" alt="Core Expertise" width="100%" style="border-radius: 12px;"/>
 
 </td>
 </tr>
 </table>
+
+</div>
 
 ---
 
@@ -124,7 +120,7 @@
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/AIVOA-CRM-HCP">
-  <img src="./project_aivoa_crm.gif?v=3" alt="AIVOA-CRM-HCP Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_aivoa_crm.gif?v=5" alt="AIVOA-CRM-HCP Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🏥 [AIVOA-CRM-HCP](https://github.com/vakajeevanreddy/AIVOA-CRM-HCP)
@@ -142,7 +138,7 @@ AI-powered CRM system for documenting Healthcare Professional (HCP) interactions
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/Customer_Health_care_crm_app">
-  <img src="./project_customer_healthcare.gif?v=3" alt="Customer Healthcare CRM App Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_customer_healthcare.gif?v=5" alt="Customer Healthcare CRM App Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🧠 [Customer Health Care CRM App](https://github.com/vakajeevanreddy/Customer_Health_care_crm_app)
@@ -162,7 +158,7 @@ End-to-end ML-powered CRM application for patient health tracking. Combines pred
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/SkC_Jeevan_Tutor">
-  <img src="./project_skc_tutor.gif?v=3" alt="SkC Jeevan Tutor Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_skc_tutor.gif?v=5" alt="SkC Jeevan Tutor Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 📚 [SkC_Jeevan_Tutor](https://github.com/vakajeevanreddy/SkC_Jeevan_Tutor)
@@ -180,7 +176,7 @@ A web-based interactive Python learning tutorial offering structured lessons, li
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/California_house_price_pred">
-  <img src="./project_california_housing.gif?v=3" alt="California House Price Prediction Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_california_housing.gif?v=5" alt="California House Price Prediction Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🏠 [California House Price Prediction](https://github.com/vakajeevanreddy/California_house_price_pred)
@@ -200,7 +196,7 @@ End-to-end machine learning project predicting California housing prices using a
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/Deeplearning_projects">
-  <img src="./project_deep_learning.gif?v=3" alt="Deep Learning Projects Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_deep_learning.gif?v=5" alt="Deep Learning Projects Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 🤖 [Deep Learning Projects](https://github.com/vakajeevanreddy/Deeplearning_projects)
@@ -218,7 +214,7 @@ A collection of deep learning implementations including CNNs, RNNs, transformers
 <td width="50%" valign="top">
 
 <a href="https://github.com/vakajeevanreddy/deep-ml">
-  <img src="./project_deep_ml.gif?v=3" alt="Deep-ML Practice Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
+  <img src="./project_deep_ml.gif?v=5" alt="Deep-ML Practice Live Demo" width="100%" style="border-radius: 8px; margin-bottom: 8px;"/>
 </a>
 
 ### 📐 [Deep-ML Practice](https://github.com/vakajeevanreddy/deep-ml)
@@ -244,19 +240,24 @@ Hands-on ML practice from Deep-ML platform — implementing core ML algorithms f
 
 <div align="center">
 
-<!-- Custom Animated Streak Dashboard (fire counter + contribution bars) -->
-<img src="./streak_animated.gif?v=3" alt="GitHub Streak & Contributions" width="100%" style="border-radius: 16px;"/>
+<!-- Real Live GitHub Streak Stats (Fire Streak Tracker) & GitHub Stats -->
+<a href="https://github.com/vakajeevanreddy">
+  <img width="49%" src="https://streak-stats.demolab.com?user=vakajeevanreddy&theme=tokyonight&hide_border=true&border_radius=14&mode=daily" alt="GitHub Fire Streak Tracker"/>
+</a>
+<a href="https://github.com/vakajeevanreddy">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=vakajeevanreddy&show_icons=true&theme=tokyonight&hide_border=true&border_radius=14&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+</a>
 
 <br/><br/>
 
-<!-- GitHub Stats + Top Languages -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=vakajeevanreddy&show_icons=true&theme=tokyonight&hide_border=true&border_radius=14&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+<!-- Top Languages & Productive Time Breakdown -->
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vakajeevanreddy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&border_radius=14" alt="Top Languages"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vakajeevanreddy&theme=tokyonight&utcOffset=5.5" alt="Productive Time Breakdown"/>
 
 <br/><br/>
 
 <!-- AI/ML Code Velocity Dashboard -->
-<img src="./github_analytics_animated.svg" alt="AI/ML Code Velocity Dashboard" width="100%" style="border-radius: 16px;"/>
+<img src="./github_analytics_animated.svg?v=5" alt="AI/ML Code Velocity Dashboard" width="100%" style="border-radius: 16px;"/>
 
 </div>
 
