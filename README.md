@@ -218,10 +218,10 @@ Hands-on ML practice from Deep-ML platform — implementing core ML algorithms f
 
 <!-- Real Live GitHub Streak Stats (Fire Streak Tracker) & GitHub Stats -->
 <a href="https://github.com/vakajeevanreddy">
-  <img width="49%" src="https://streak-stats.demolab.com?user=vakajeevanreddy&theme=tokyonight&hide_border=true&border_radius=14&mode=daily" alt="GitHub Fire Streak Tracker"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=vakajeevanreddy&show_icons=true&theme=tokyonight&hide_border=true&border_radius=14&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
 </a>
 <a href="https://github.com/vakajeevanreddy">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=vakajeevanreddy&show_icons=true&theme=tokyonight&hide_border=true&border_radius=14&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+  <img width="49%" src="https://streak-stats.demolab.com?user=vakajeevanreddy&theme=tokyonight&hide_border=true&border_radius=14&fire=FF6B00&ring=FF6B00" alt="GitHub Fire Streak Tracker"/>
 </a>
 
 <br/><br/>
@@ -239,27 +239,55 @@ Hands-on ML practice from Deep-ML platform — implementing core ML algorithms f
 
 ---
 
-## 🌐 Connect With Me
+## 📬 Contact Me
 
 <div align="center">
 
+<table width="100%">
+<tr>
+<td width="55%" valign="top">
+
+### 💬 Drop a Message
+
+Have an AI/ML opportunity, consulting inquiry, or project collaboration? Choose an option below to open a pre-filled direct message:
+
+| Topic / Purpose | Quick Action |
+|:---|:---|
+| 💼 **Full-Time / Contract AI Roles** | [**Compose Job Inquiry &rarr;**](mailto:vakajeevanreddy@gmail.com?subject=%5BHiring%5D%20AI%2FML%20Engineering%20Opportunity&body=Hi%20Jeevan%2C%0A%0AWe%20came%20across%20your%20portfolio%20and%20are%20interested%20in%20discussing%20an%20opportunity%20with%20our%20team.%0A%0ACompany%20%2F%20Team%3A%20%0ARole%3A%20%0ALocation%20%2F%20Remote%3A%20%0A%0ABest%20regards%2C) |
+| 🤖 **LLM Agents & RAG Architecture** | [**Request Consulting &rarr;**](mailto:vakajeevanreddy@gmail.com?subject=%5BConsulting%5D%20LLM%20%26%20Agentic%20System%20Design&body=Hi%20Jeevan%2C%0A%0AI%20would%20like%20to%20discuss%20an%20AI%2FLLM%20architecture%20use-case.%0A%0AProject%20Overview%3A%20%0ATimeline%3A%20%0A%0ABest%20regards%2C) |
+| 🔬 **Open-Source & Research** | [**Start Discussion &rarr;**](mailto:vakajeevanreddy@gmail.com?subject=%5BCollab%5D%20Open-Source%20%2F%20Research%20Collaboration&body=Hi%20Jeevan%2C%0A%0AI%20saw%20your%20work%20and%20would%20love%20to%20collaborate%20on...%0A%0ABest%20regards%2C) |
+| ☕ **General Networking** | [**Say Hello &rarr;**](mailto:vakajeevanreddy@gmail.com?subject=Hello%20Jeevan!&body=Hi%20Jeevan%2C%0A%0AJust%20wanted%20to%20connect%20and%20say%20hi!%0A%0ABest%20regards%2C) |
+
+</td>
+<td width="45%" valign="top">
+
+### 📍 Direct Channels
+
+- 📧 **Direct Email:** [`vakajeevanreddy@gmail.com`](mailto:vakajeevanreddy@gmail.com)
+- 💼 **LinkedIn Profile:** [linkedin.com/in/vaka-jeevan-reddy](https://www.linkedin.com/in/vaka-jeevan-reddy/)
+- 🐙 **GitHub:** [github.com/vakajeevanreddy](https://github.com/vakajeevanreddy)
+- ⚡ **Availability:** Open for AI/ML Engineer, LLM Developer, & Data Scientist Roles
+- 🌍 **Work Mode:** Remote / Hybrid / Relocation
+
+<br/>
+
+<a href="mailto:vakajeevanreddy@gmail.com?subject=Inquiry%20from%20GitHub%20Profile">
+  <img src="https://img.shields.io/badge/Send%20Direct%20Email-vakajeevanreddy%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Jeevan"/>
+</a>
+&nbsp;
 <a href="https://www.linkedin.com/in/vaka-jeevan-reddy/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn"/>
-</a>
-&nbsp;
-<a href="mailto:vakajeevanreddy@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" alt="Gmail"/>
-</a>
-&nbsp;
-<a href="https://github.com/vakajeevanreddy">
-  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Connect%20Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
-<br/><br/>
+</td>
+</tr>
+</table>
+
+<br/>
 
 > 💬 *"The best way to predict the future is to build it."*
 >
-> Open to **AI/ML roles**, **LLM engineering** opportunities, and **interesting collaborations**. Let's connect! 🤝
+> Actively interviewing and exploring high-impact challenges in **AI/ML**, **Generative AI**, and **Intelligent Systems**. Let's talk! 🤝
 
 </div>
 
